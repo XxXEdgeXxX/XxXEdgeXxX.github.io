@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSV Dropdown</title>
+    <style>
+        #dataDisplay {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Select a Value</h1>
+    <select id="dropdown" onchange="showData()">
+        <!-- Options will be populated here -->
+    </select>
+
+    <div id="dataDisplay"></div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            fetch('your-csv-file.csv')
+                .then(response => response.text())
+                .then(data => {
+                    let rows = data.split('\n');
+                    let dropdown = document.getElementById('dropdown');
+                    rows.forEach((row, index) => {
+                        if (index > 0 && row) { // skip the header
+                            let columns = row.split(',');
+                            let option = document.createElement('option');
+                            option.value = index; // store row index
+                            option.text = columns[0]; // assuming the first column is for dropdown values
+                            dropdown.appendChild(option);
+                        }
+                    });
+                });
+        });
+
+        function showData() {
+            let dropdown = document.getElementById('dropdown');
+            let selectedIndex = dropdown.value;
+            fetch('your-csv-file.csv')
+                .then(response => response.text())
+                .then(data => {
+                    let rows = data.split('\n');
+                    let selectedRow = rows[selectedIndex];
+                    let columns = selectedRow.split(',');
+
+                    let dataDisplay = document.getElementById('dataDisplay');
+                    dataDisplay.innerHTML = `
+                        <p>Column 1: ${columns[1]}</p>
+                        <p>Column 2: ${columns[2]}</p>
+                        <p>Column 3: ${columns[3]}</p>
+                    `;
+                });
+        }
+    </script>
+</body>
+</html>
