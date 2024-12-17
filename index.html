@@ -2,99 +2,111 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>CSV Dropdown</title>
+    <title>Unit Image Viewer</title>
     <style>
         #dataDisplay {
             margin-top: 20px;
         }
+        .tab {
+            display: inline-block;
+            padding: 10px;
+            cursor: pointer;
+            border: 1px solid #ccc;
+            border-bottom: none;
+            background-color: #f1f1f1;
+        }
+        .tab.active {
+            background-color: #fff;
+            border-bottom: 1px solid #fff;
+        }
+        #unitImage {
+            display: block;
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body>
-<h1>Select a Value</h1>
-<label for="statusDropdown">Status:</label>
-<select id="statusDropdown" onchange="populateFirstDropdown()">
-    <option value="1">Normal</option>
-    <option value="2">Evolved</option>
-    <option value="3">True</option>
-</select>
+<h1>Select Unit Form</h1>
+<div id="tabs">
+    <div class="tab active" onclick="showForm(1)">Normal</div>
+    <div class="tab" onclick="showForm(2)">Evolved Form</div>
+    <div class="tab" onclick="showForm(3)">True Form</div>
+    <div class="tab" onclick="showForm(4)">Ultra Form</div>
+</div>
 
-<label for="valueDropdown">Value:</label>
-<select id="valueDropdown" onchange="showData()">
-    <!-- Options will be populated here -->
-</select>
-
-<div id="dataDisplay"></div>
+<div id="dataDisplay">
+    <img id="unitImage" src="" alt="Unit Image">
+    <div id="info"></div>
+</div>
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        fetch('BCDATA/UPDATEDUNITDATA.csv')
+        fetch('unit_001.csv')
             .then(response => response.text())
             .then(data => {
-                window.csvData = data.split('\n');
-                populateFirstDropdown(); // Initial population
+                window.csvData = data.split('\n').slice(1).map(row => row.split(','));
+                updateTabs(); // Update tab names with unit data
+                showForm(1); // Show first form by default
             });
     });
 
-    function populateFirstDropdown() {
-        let statusDropdown = document.getElementById('statusDropdown');
-        let valueDropdown = document.getElementById('valueDropdown');
-        let selectedStatus = statusDropdown.value;
-        valueDropdown.innerHTML = ''; // Clear existing options
+    function updateTabs() {
+        const normalName = csvData[0][1]; // Assuming the second column contains the unit name
+        const evolvedFormName = csvData[1][2]; // Assuming the third column contains the evolved form name
+        const trueFormName = csvData[2][3]; // Assuming the fourth column contains the true form name
 
-        csvData.forEach((row, index) => {
-            if (index > 0 && row) { // skip the header
-                let columns = row.split(',');
-                let option = document.createElement('option');
-                option.value = index; // store row index
-                option.text = columns[selectedStatus]; // use the selected status column
-                valueDropdown.appendChild(option);
-            }
-        });
+        document.querySelector('.tab:nth-child(1)').textContent = normalName;
+        document.querySelector('.tab:nth-child(2)').textContent = evolvedFormName;
+        document.querySelector('.tab:nth-child(3)').textContent = trueFormName;
     }
 
-    function showData() {
-        let valueDropdown = document.getElementById('valueDropdown');
-        let selectedIndex = valueDropdown.value;
-        let selectedRow = csvData[selectedIndex].split(',');
+    function showForm(formNumber) {
+        document.querySelectorAll('.tab').forEach((tab, index) => {
+            tab.classList.toggle('active', index + 1 === formNumber);
+        });
 
-        let dataDisplay = document.getElementById('dataDisplay');
-        dataDisplay.innerHTML = `
-                <p>Number: ${selectedRow[0]}</p>
-                <p>Name: ${selectedRow[1]}</p>
-                <p>Evolved Form: ${selectedRow[2]}</p>
-                <p>True Form: ${selectedRow[3]}</p>
-                <p>Rarity: ${selectedRow[4]}</p>
-                <p>TF: ${selectedRow[5]}</p>
-                <p>Red Catfruit: ${selectedRow[6]}</p>
-                <p>Purple Catfruit: ${selectedRow[7]}</p>
-                <p>Blue Catfruit: ${selectedRow[8]}</p>
-                <p>Green Catfruit: ${selectedRow[9]}</p>
-                <p>Yellow Catfruit: ${selectedRow[10]}</p>
-                <p>Ancient Catfruit: ${selectedRow[11]}</p>
-                <p>Gold Catfruit: ${selectedRow[12]}</p>
-                <p>Aku Catfruit: ${selectedRow[13]}</p>
-                <p>Epic Catfruit: ${selectedRow[14]}</p>
-                <p>Red Catfruit Seed: ${selectedRow[15]}</p>
-                <p>Green Catfruit Seed: ${selectedRow[16]}</p>
-                <p>Purple Catfruit Seed: ${selectedRow[17]}</p>
-                <p>Blue Catfruit Seed: ${selectedRow[18]}</p>
-                <p>Yellow Catfruit Seed: ${selectedRow[19]}</p>
-                <p>Ancient Catfruit Seed: ${selectedRow[20]}</p>
-                <p>Gold Catfruit Seed: ${selectedRow[21]}</p>
-                <p>Aku Catfruit Seed: ${selectedRow[22]}</p>
-                <p>Epic Catfruit Seed: ${selectedRow[23]}</p>
-                <p>Purple Behemoth Stone: ${selectedRow[24]}</p>
-                <p>Red Behemoth Stone: ${selectedRow[25]}</p>
-                <p>Blue Behemoth Stone: ${selectedRow[26]}</p>
-                <p>Green Behemoth Stone: ${selectedRow[27]}</p>
-                <p>Yellow Behemoth Stone: ${selectedRow[28]}</p>
-                <p>Epic Behemoth Stone: ${selectedRow[29]}</p>
-                <p>Purple Behemoth Gem: ${selectedRow[30]}</p>
-                <p>Blue Behemoth Gem: ${selectedRow[31]}</p>
-                <p>Red Behemoth Gem: ${selectedRow[32]}</p>
-                <p>Green Behemoth Gem: ${selectedRow[33]}</p>
-                <p>Yellow Behemoth Gem: ${selectedRow[34]}</p>
-            `;
+        const selectedRow = csvData[formNumber - 1];
+        const imageUrl = selectedRow[1]; // Assuming the second column contains the image URL
+
+        document.getElementById('unitImage').src = imageUrl;
+
+        document.getElementById('info').innerHTML = `
+            <p>Number: ${selectedRow[0]}</p>
+            <p>Name: ${selectedRow[1]}</p>
+            <p>Evolved Form: ${selectedRow[2]}</p>
+            <p>True Form: ${selectedRow[3]}</p>
+            <p>Rarity: ${selectedRow[4]}</p>
+            <p>TF: ${selectedRow[5]}</p>
+            <p>Red Catfruit: ${selectedRow[6]}</p>
+            <p>Purple Catfruit: ${selectedRow[7]}</p>
+            <p>Blue Catfruit: ${selectedRow[8]}</p>
+            <p>Green Catfruit: ${selectedRow[9]}</p>
+            <p>Yellow Catfruit: ${selectedRow[10]}</p>
+            <p>Ancient Catfruit: ${selectedRow[11]}</p>
+            <p>Gold Catfruit: ${selectedRow[12]}</p>
+            <p>Aku Catfruit: ${selectedRow[13]}</p>
+            <p>Epic Catfruit: ${selectedRow[14]}</p>
+            <p>Red Catfruit Seed: ${selectedRow[15]}</p>
+            <p>Green Catfruit Seed: ${selectedRow[16]}</p>
+            <p>Purple Catfruit Seed: ${selectedRow[17]}</p>
+            <p>Blue Catfruit Seed: ${selectedRow[18]}</p>
+            <p>Yellow Catfruit Seed: ${selectedRow[19]}</p>
+            <p>Ancient Catfruit Seed: ${selectedRow[20]}</p>
+            <p>Gold Catfruit Seed: ${selectedRow[21]}</p>
+            <p>Aku Catfruit Seed: ${selectedRow[22]}</p>
+            <p>Epic Catfruit Seed: ${selectedRow[23]}</p>
+            <p>Purple Behemoth Stone: ${selectedRow[24]}</p>
+            <p>Red Behemoth Stone: ${selectedRow[25]}</p>
+            <p>Blue Behemoth Stone: ${selectedRow[26]}</p>
+            <p>Green Behemoth Stone: ${selectedRow[27]}</p>
+            <p>Yellow Behemoth Stone: ${selectedRow[28]}</p>
+            <p>Epic Behemoth Stone: ${selectedRow[29]}</p>
+            <p>Purple Behemoth Gem: ${selectedRow[30]}</p>
+            <p>Blue Behemoth Gem: ${selectedRow[31]}</p>
+            <p>Red Behemoth Gem: ${selectedRow[32]}</p>
+            <p>Green Behemoth Gem: ${selectedRow[33]}</p>
+            <p>Yellow Behemoth Gem: ${selectedRow[34]}</p>
+        `;
     }
 </script>
 </body>
