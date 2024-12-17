@@ -2,123 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Unit Image Viewer</title>
-    <style>
-        #dataDisplay {
-            margin-top: 20px;
-        }
-        .tab {
-            display: inline-block;
-            padding: 10px;
-            cursor: pointer;
-            border: 1px solid #ccc;
-            border-bottom: none;
-            background-color: #f1f1f1;
-        }
-        .tab.active {
-            background-color: #fff;
-            border-bottom: 1px solid #fff;
-        }
-        #unitImage {
-            display: block;
-            margin-top: 10px;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catfruit Data</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<h1>Select a Unit and Form</h1>
-<label for="formDropdown">Form:</label>
-<select id="formDropdown" onchange="showForm()">
-    <option value="1">Normal</option>
-    <option value="2">Evolved Form</option>
-    <option value="3">True Form</option>
-    <option value="4">Ultra Form</option>
-</select>
+    <h1>Catfruit Data</h1>
+    <div>
+        <label for="formSelect">Form:</label>
+        <select id="formSelect">
+            <option value="normal">Normal Form</option>
+            <option value="evolved">Evolved Form</option>
+            <option value="true">True Form</option>
+        </select>
+    </div>
+    <div>
+        <label for="nameSelect">Name:</label>
+        <select id="nameSelect"></select>
+    </div>
+    <div id="dataDisplay"></div>
 
-<label for="unitDropdown">Unit:</label>
-<select id="unitDropdown" onchange="fetchUnitData()">
-    <!-- Options will be populated here -->
-</select>
-
-<div id="dataDisplay">
-    <img id="unitImage" src="" alt="Unit Image">
-    <div id="info"></div>
-</div>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        populateUnitDropdown();
-    });
-
-    function populateUnitDropdown() {
-        fetch('/BCDATA/UPDATEDUNITDATA.CSV')
-            .then(response => response.text())
-            .then(data => {
-                const lines = data.split('\n').slice(1); // Skip header
-                const unitDropdown = document.getElementById('unitDropdown');
-                lines.forEach(line => {
-                    const columns = line.split(',');
-                    if (columns[0]) { // Check if unit number exists
-                        const option = document.createElement('option');
-                        option.value = line;
-                        option.text = columns[1]; // Use the name column
-                        unitDropdown.appendChild(option);
-                    }
-                });
-            });
-    }
-
-    function fetchUnitData() {
-        const unitDropdown = document.getElementById('unitDropdown');
-        const selectedUnitData = unitDropdown.value.split(',');
-
-        window.unitData = {
-            number: selectedUnitData[0],
-            normalForm: selectedUnitData[1],
-            evolvedForm: selectedUnitData[2],
-            trueForm: selectedUnitData[3],
-            imageUrl: `/images/${selectedUnitData[0]}.png`, // Assuming images are named by unit number
-            rarity: selectedUnitData[4],
-            tf: selectedUnitData[5],
-            redCatfruit: selectedUnitData[6],
-            purpleCatfruit: selectedUnitData[7],
-            // Add other data as needed...
-        };
-
-        showForm();
-    }
-
-    function showForm() {
-        const formDropdown = document.getElementById('formDropdown');
-        const formNumber = formDropdown.value;
-
-        let formName = '';
-        switch (formNumber) {
-            case '1':
-                formName = window.unitData.normalForm;
-                break;
-            case '2':
-                formName = window.unitData.evolvedForm;
-                break;
-            case '3':
-                formName = window.unitData.trueForm;
-                break;
-            case '4':
-                formName = 'Ultra Form';
-                break;
-        }
-
-        document.getElementById('unitImage').src = `/images/${window.unitData.number}_${formNumber}.png`; // Assuming form images are named by unit number and form number
-        document.getElementById('info').innerHTML = `
-            <p>Number: ${window.unitData.number}</p>
-            <p>Name: ${formName}</p>
-            <p>Rarity: ${window.unitData.rarity}</p>
-            <p>TF: ${window.unitData.tf}</p>
-            <p>Red Catfruit: ${window.unitData.redCatfruit}</p>
-            <p>Purple Catfruit: ${window.unitData.purpleCatfruit}</p>
-            <!-- Add other data as needed... -->
-        `;
-    }
-</script>
+    <script src="script.js"></script>
 </body>
 </html>
