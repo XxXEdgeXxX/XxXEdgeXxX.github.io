@@ -26,12 +26,17 @@
     </style>
 </head>
 <body>
-<h1>Select Unit Form</h1>
+<h1>Select a Unit and Form</h1>
+<label for="unitDropdown">Unit:</label>
+<select id="unitDropdown" onchange="fetchUnitData()">
+    <!-- Options will be populated here -->
+</select>
+
 <div id="tabs">
-    <div class="tab active" onclick="showForm(1)">Normal</div>
-    <div class="tab" onclick="showForm(2)">Evolved Form</div>
-    <div class="tab" onclick="showForm(3)">True Form</div>
-    <div class="tab" onclick="showForm(4)">Ultra Form</div>
+    <div class="tab active" onclick="showForm(1)" id="tab1">Normal</div>
+    <div class="tab" onclick="showForm(2)" id="tab2">Evolved Form</div>
+    <div class="tab" onclick="showForm(3)" id="tab3">True Form</div>
+    <div class="tab" onclick="showForm(4)" id="tab4">Ultra Form</div>
 </div>
 
 <div id="dataDisplay">
@@ -41,23 +46,40 @@
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        fetch('unit_001.csv')
+        populateUnitDropdown();
+    });
+
+    function populateUnitDropdown() {
+        // Add options to the unit dropdown. Replace with actual unit data as needed.
+        const units = ['001', '002', '003', '004']; // Example units
+        const unitDropdown = document.getElementById('unitDropdown');
+        units.forEach(unit => {
+            const option = document.createElement('option');
+            option.value = `unit_${unit}.csv`;
+            option.text = `Unit ${unit}`;
+            unitDropdown.appendChild(option);
+        });
+    }
+
+    function fetchUnitData() {
+        const unitDropdown = document.getElementById('unitDropdown');
+        const unitFile = unitDropdown.value;
+
+        fetch(unitFile)
             .then(response => response.text())
             .then(data => {
                 window.csvData = data.split('\n').slice(1).map(row => row.split(','));
-                updateTabs(); // Update tab names with unit data
+                updateTabs();
                 showForm(1); // Show first form by default
             });
-    });
+    }
 
     function updateTabs() {
-        const normalName = csvData[0][1]; // Assuming the second column contains the unit name
-        const evolvedFormName = csvData[1][2]; // Assuming the third column contains the evolved form name
-        const trueFormName = csvData[2][3]; // Assuming the fourth column contains the true form name
-
-        document.querySelector('.tab:nth-child(1)').textContent = normalName;
-        document.querySelector('.tab:nth-child(2)').textContent = evolvedFormName;
-        document.querySelector('.tab:nth-child(3)').textContent = trueFormName;
+        const names = csvData.map(row => row[1]); // Assuming the second column contains the names
+        document.getElementById('tab1').textContent = names[0] || 'Normal';
+        document.getElementById('tab2').textContent = names[1] || 'Evolved Form';
+        document.getElementById('tab3').textContent = names[2] || 'True Form';
+        document.getElementById('tab4').textContent = 'Ultra Form';
     }
 
     function showForm(formNumber) {
