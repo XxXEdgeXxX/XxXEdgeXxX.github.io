@@ -1,0 +1,747 @@
+Number,Name,Rarity,Red Catfruit,Green Catfruit,Purple Catfruit,Blue Catfruit,Yellow Catfruit,Ancient Catfruit,Gold Catfruit,Epic Catfruit,Red Catfruit Seed,Green Catfruit Seed,Purple Catfruit Seed,Blue Catfruit Seed,Yellow Catfruit Seed,Ancient Catfruit Seed,Gold Catfruit Seed,Epic Catfruit Seed
+No.001-1,Cat,Normal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.002-1,Tank Cat,Normal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.003-1,Axe Cat,Normal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.004-1,Gross Cat,Normal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.005-1,Cow Cat,Normal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.006-1,Bird Cat,Normal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.007-1,Fish Cat,Normal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.008-1,Lizard Cat,Normal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.009-1,Titan Cat,Normal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.010-1,Actress Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.011-1,Kung Fu Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.012-1,Mr.,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.013-1,Bondage Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.014-1,Dom Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.015-1,Cats in a Box,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.016-1,Panties Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.017-1,Moneko,Special,0,0,0,0,0,0,0,0,3,0,0,3,3,0,1,1
+No.018-1,Tricycle Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.019-1,Ninja Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.020-1,Zombie Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.021-1,Samurai Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.022-1,Sumo Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.023-1,Boogie Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.024-1,Skirt Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.025-1,Valkyrie Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.026-1,Bahamut Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.027-1,Kerihime,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.028-1,Cat Princess,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.029-1,Capsule Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.030-1,Masked Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.031-1,Bodhisattva Cat,Super Rare,0,4,2,1,1,0,0,1,0,0,0,0,0,0,0,0
+No.032-1,Delinquent Cat,Super Rare,1,4,1,0,2,1,0,0,0,0,0,0,0,0,0,0
+No.033-1,Hip Hop Cat,Super Rare,4,0,2,1,1,0,0,1,0,0,0,0,0,0,0,0
+No.034-1,Kotatsu Cat,Super Rare,2,4,1,1,0,0,0,1,0,0,0,0,0,0,0,0
+No.035-1,Nekoluga,Uber Rare,6,7,7,7,0,0,0,2,0,0,0,0,0,0,0,0
+No.036-1,Nerd Cat,Super Rare,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,0
+No.037-1,Swimmer Cat,Super Rare,1,4,0,2,1,0,0,1,0,0,0,0,0,0,0,0
+No.038-1,Pogo Cat,Rare,0,1,0,1,0,0,0,0,3,0,2,0,3,0,0,0
+No.039-1,Wheel Cat,Rare,0,0,0,2,0,0,0,0,3,2,1,0,2,0,0,0
+No.040-1,Apple Cat,Super Rare,4,1,0,1,2,0,0,1,0,0,0,0,0,0,0,0
+No.041-1,Bath Cat,Super Rare,4,1,0,1,2,0,0,1,0,0,0,0,0,0,0,0
+No.042-1,Salon Cat,Rare,1,0,0,1,0,0,0,0,0,3,2,0,3,0,0,0
+No.043-1,Ice Cat,Uber Rare,8,0,4,3,6,0,0,4,0,0,0,0,0,0,0,0
+No.044-1,Cat Machine,Uber Rare,7,0,4,7,3,0,0,4,0,0,0,0,0,0,0,0
+No.045-1,Lesser Demon Cat,Uber Rare,5,5,7,0,7,0,0,3,0,0,0,0,0,0,0,0
+No.046-1,Maiko Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.047-1,Jurassic Cat,Rare,1,1,0,0,0,0,0,0,0,0,3,2,3,0,0,0
+No.048-1,Viking Cat,Rare,2,0,0,0,0,0,0,0,0,2,3,2,1,0,0,0
+No.049-1,Pirate Cat,Rare,2,0,0,0,0,0,0,0,0,3,2,2,1,0,0,0
+No.050-1,Thief Cat,Rare,0,1,1,0,0,0,0,0,3,3,0,2,0,0,0,0
+No.051-1,Bishop Cat,Rare,0,2,0,0,0,0,0,0,2,0,1,2,3,0,0,0
+No.052-1,Fortune Teller Cat,Rare,0,2,0,0,0,0,0,0,3,0,1,2,2,0,0,0
+No.053-1,Shaman Cat,Rare,0,2,0,0,0,0,0,0,2,0,3,2,1,0,0,0
+No.054-1,Evangelist Cat,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.055-1,Type 10,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.056-1,Witch Cat,Rare,2,0,0,0,0,0,0,0,0,3,2,2,1,0,0,0
+No.057-1,Archer Cat,Rare,0,2,0,0,0,0,0,0,2,0,1,3,2,0,0,0
+No.058-1,Marauder Cat,Uber Rare,0,4,5,4,4,0,0,3,0,0,0,0,0,0,0,0
+No.059-1,Swordsman Cat,Rare,2,0,0,0,0,0,0,0,0,3,2,2,1,0,0,0
+No.060-1,Baby Cat,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.061-1,Bronze Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.062-1,Sushi Cat,Super Rare,4,1,2,0,1,0,0,1,0,0,0,0,0,0,0,0
+No.063-1,Toy Machine Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.064-1,Sports Day Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.065-1,Swordsman,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.066-1,Cow Princess,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.067-1,PPT48,Uber Rare,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0
+No.068-1,Li'l Gau,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.069-1,Reaper,Super Rare,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.070-1,Sleeping Beauty Punt,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.071-1,Salaryman Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.072-1,Sanada Yukimura,Uber Rare,4,0,8,5,3,0,0,4,0,0,0,0,0,0,0,0
+No.073-1,Maeda Keiji,Uber Rare,4,3,8,6,0,0,0,4,0,0,0,0,0,0,0,0
+No.074-1,Oda Nobunaga,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.075-1,Reindeer Fish Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.076-1,Windy,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.077-1,Thundia,Uber Rare,8,0,4,3,4,0,0,4,0,0,0,0,0,0,0,0
+No.078-1,Droid Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.079-1,Space Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.080-1,Adult Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.081-1,Evil Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.082-1,Doll Cats,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.083-1,Blue Shinobi,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.084-1,Sodom,Uber Rare,0,7,3,3,4,0,0,3,0,0,0,0,0,0,0,0
+No.085-1,Megidora,Uber Rare,0,8,3,4,4,0,0,4,0,0,0,0,0,0,0,0
+No.086-1,Vars,Uber Rare,0,3,8,3,5,0,0,4,0,0,0,0,0,0,0,0
+No.087-1,Kamukura,Uber Rare,8,0,4,3,3,0,0,3,0,0,0,0,0,0,0,0
+No.088-1,Raiden,Uber Rare,8,4,0,3,3,0,0,3,0,0,0,0,0,0,0,0
+No.089-1,Rope Jump Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.090-1,Nimue,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.091-1,Monkey King,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.092-1,Crazed Cat,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.093-1,Crazed Tank Cat,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.094-1,Crazed Axe Cat,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.095-1,Crazed Gross Cat,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.096-1,Crazed Cow Cat,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.097-1,Crazed Bird Cat,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.098-1,Crazed Fish Cat,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.099-1,Crazed Lizard Cat,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.100-1,Crazed Titan Cat,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.101-1,Maiden Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.102-1,Clone Elle,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.103-1,Red Marron,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.104-1,Cabaret Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.105-1,Koi Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.106-1,Kuu,Uber Rare,6,3,6,2,0,0,0,3,0,0,0,0,0,0,0,0
+No.107-1,Kai,Uber Rare,0,7,4,3,3,0,0,3,0,0,0,0,0,0,0,0
+No.108-1,Coppermine,Uber Rare,4,7,0,3,3,0,0,3,0,0,0,0,0,0,0,0
+No.109-1,Cat Bros,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.110-1,Madam Bride,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.111-1,Celesse,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.112-1,Nono,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.113-1,Olga,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.114-1,Norn,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.115-1,Yoichi,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.116-1,Serum,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.117-1,Fuu,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.118-1,Aura,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.119-1,Rei,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.120-1,Wyvern,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.121-1,Healer,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.122-1,Merc,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.123-1,Vacation Queen,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.124-1,Bean Cats,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.125-1,Date Masamune,Uber Rare,6,0,6,3,3,0,0,3,0,0,0,0,0,0,0,0
+No.126-1,Takeda Shingen,Uber Rare,3,3,6,6,0,0,0,3,0,0,0,0,0,0,0,0
+No.127-1,Clockwork Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.128-1,Flower Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.129-1,Vengeful Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.130-1,Gold Cat,Super Rare,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+No.131-1,Ururun Wolf,Special,0,0,0,0,0,1,0,0,0,5,5,5,5,0,0,0
+No.132-1,Neneko,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.133-1,Kung Fu Cat X,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.134-1,Hikakin,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.135-1,Urashima Taro,Uber Rare,2,0,7,3,7,0,0,4,0,0,0,0,0,0,0,0
+No.136-1,The Grateful Crane,Uber Rare,0,0,0,0,30,0,0,10,0,0,0,0,0,0,0,0
+No.137-1,Momotaro,Uber Rare,7,2,0,3,7,0,0,4,0,0,0,0,0,0,0,0
+No.138-1,Kasa Jizo,Uber Rare,3,2,7,0,7,0,0,4,0,0,0,0,0,0,0,0
+No.139-1,Princess Kaguya,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.141-1,Squish Ball Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.142-1,God,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.143-1,Tutorial Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.144-1,Nurse Cat,Uber Rare,3,6,6,3,0,0,0,3,0,0,0,0,0,0,0,0
+No.145-1,Cat Base Mini,Super Rare,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+No.146-1,Cat Gunslinger,Rare,0,0,2,0,0,0,0,0,2,1,0,3,2,0,0,0
+No.147-1,Stilts Cat,Rare,0,0,0,0,2,0,0,0,2,3,1,2,0,0,0,0
+No.148-1,Tin Cat,Rare,0,0,2,0,0,0,0,0,2,3,0,2,1,0,0,0
+No.149-1,Rocker Cat,Rare,0,0,0,0,2,0,0,0,2,3,2,1,0,0,0,0
+No.150-1,Mer-Cat,Rare,0,2,0,0,0,0,0,0,3,0,2,1,2,0,0,0
+No.151-1,Juliet Cat,Super Rare,2,0,1,1,4,0,0,1,0,0,0,0,0,0,0,0
+No.152-1,Weightlifter Cat,Super Rare,1,1,1,2,0,0,0,1,0,0,0,0,0,0,0,0
+No.153-1,Figure Skating Cats,Super Rare,2,0,2,2,2,1,0,0,0,0,0,0,0,0,0,0
+No.154-1,Cat Toaster,Super Rare,1,2,0,1,4,0,0,1,0,0,0,0,0,0,0,0
+No.155-1,Hoop Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.157-1,Dragon League Swordsman,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.158-1,Nubobo,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.159-1,Uesugi Kenshin,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.160-1,Kalisa,Uber Rare,4,4,3,0,7,0,0,3,0,0,0,0,0,0,0,0
+No.161-1,Yurinchi,Super Rare,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0
+No.162-1,Crazed Princess Punt,Uber Rare,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0
+No.163-1,Sho Ayanokoji,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.164-1,Hikaru Saotome,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.165-1,Hitomi Saionji,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.166-1,Hoshi Grandmarnier,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.167-1,Shouchikubai Shiratori,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.168-1,Yankee Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.169-1,Asiluga,Uber Rare,0,5,6,5,5,0,0,2,0,0,0,0,0,0,0,0
+No.170-1,Kubiluga,Uber Rare,5,6,5,5,0,0,0,2,0,0,0,0,0,0,0,0
+No.171-1,Tecoluga,Uber Rare,5,6,0,5,5,0,0,3,0,0,0,0,0,0,0,0
+No.172-1,Balaluga,Uber Rare,5,5,5,0,6,0,0,2,0,0,0,0,0,0,0,0
+No.173-1,Li'l Nyandam,Special,0,5,5,5,5,1,0,0,0,0,0,0,0,0,0,0
+No.174-1,Baby Mola,Super Rare,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0
+No.175-1,Mola King,Uber Rare,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0
+No.176-1,Meowla Meowla,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.177-1,Marshmallow Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.178-1,Dioramos,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.179-1,Mob Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.180-1,Takuya & Yuki,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.181-1,Mystery Girl Yuki,Uber Rare,0,3,0,0,3,0,0,1,0,0,0,0,0,0,0,0
+No.182-1,Yuki Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.184-1,Cat Kart R,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.185-1,Mr. Ninja,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.186-1,Hearscht,Uber Rare,0,0,3,3,0,0,0,1,0,0,0,0,0,0,0,0
+No.187-1,Cornelia,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.188-1,Juvens,Uber Rare,3,0,0,0,3,0,0,1,0,0,0,0,0,0,0,0
+No.189-1,Mystica,Uber Rare,0,0,6,0,0,0,0,3,0,0,0,0,0,0,0,0
+No.190-1,Alois,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.191-1,Citrouille,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.192-1,Titi,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.193-1,Yamaoka Minori,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.194-1,Nakamura Kanae,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.195-1,Akira,Uber Rare,0,2,3,8,7,0,0,4,0,0,0,0,0,0,0,0
+No.196-1,Mekako Saionji,Uber Rare,0,4,7,7,3,0,0,3,0,0,0,0,0,0,0,0
+No.197-1,Catman,Uber Rare,3,3,4,8,0,2,0,0,0,0,0,0,0,0,0,0
+No.198-1,Psychocat,Rare,0,0,0,2,0,0,0,0,2,3,2,0,1,0,0,0
+No.199-1,Onmyoji Cat,Rare,0,2,0,0,0,0,0,0,1,0,2,2,3,0,0,0
+No.200-1,Surfer Cat,Super Rare,0,1,2,4,1,0,0,1,0,0,0,0,0,0,0,0
+No.201-1,Metal Cat,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.202-1,Drumcorps Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.203-1,Baozi Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.204-1,Kachi-Kachi,Uber Rare,0,3,3,6,6,0,0,3,0,0,0,0,0,0,0,0
+No.205-1,Felyne,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.206-1,Sheria - Kirin,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.207-1,Rathalos,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.208-1,Rathian,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.209-1,Kirin Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.210-1,Li'l Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.211-1,Li'l Tank Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.212-1,Li'l Axe Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.213-1,The White Rabbit,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.214-1,Catburger,Special,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+No.215-1,HYAKUTARO,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.216-1,MARCO,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.217-1,TARMA,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.218-1,ERI,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.219-1,FIO,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.220-1,SV-001,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.221-1,ALLEN O'NEIL,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.222-1,MARS PEOPLE,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.223-1,HUGE HERMIT,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.224-1,JUPITER KING,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.225-1,DONALD MORDEN,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.226-1,HI-DO,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.227-1,Warlock and Pierre,Uber Rare,2,3,0,8,4,0,0,3,0,0,0,0,0,0,0,0
+No.228-1,Pumpcat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.229-1,Gloomy Neneko,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.230-1,Hallowindy,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.231-1,Spooky Thundia,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.232-1,Oden,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.233-1,Junior God of Light - Valkyrie,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.234-1,Junior God Brynhildr,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.235-1,Junior God Suruzu,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.236-1,Goddess of Abundance - Freya,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.237-1,God of War - Odin,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.238-1,Freshman Cat Jobs,Super Rare,0,0,0,0,0,0,0,5,1,0,0,0,0,0,0,0
+No.239-1,Rich Cat III,Super Rare,0,0,0,0,0,0,0,5,0,0,0,0,1,0,0,0
+No.240-1,Sniper the Recruit,Super Rare,0,0,0,0,0,0,0,5,0,0,0,1,0,0,0,0
+No.241-1,Togeluga,Uber Rare,5,0,5,6,5,0,0,2,0,0,0,0,0,0,0,0
+No.242-1,Frosty Kai,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.243-1,Santa Kuu,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.244-1,Holy Coppermine,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.245-1,A Gift of Cats,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.246-1,Li'l Gross Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.247-1,Li'l Cow Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.248-1,Li'l Bird Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.249-1,Undead Cat,Special,0,0,0,0,0,0,0,0,5,5,5,0,0,0,0,0
+No.250-1,Swordsman,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.251-1,Horsemen Cavalry,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.252-1,Ashura,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.253-1,Battle Balloon,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.254-1,Dragon Rider,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.255-1,Pretty Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.256-1,Cyclops,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.257-1,Golem,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.258-1,Thunder God Zeus,Uber Rare,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,1
+No.259-1,Anubis the Protector,Uber Rare,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+No.260-1,Radiant Aphrodite,Uber Rare,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,1
+No.261-1,Catway,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.262-1,Hayabusa,Uber Rare,4,2,3,8,0,0,0,3,0,0,0,0,0,0,0,0
+No.263-1,Nyamusu,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.264-1,Pochi,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.265-1,Kuromi,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.266-1,Setsuko,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.267-1,Nebaaru-kun,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.268-1,Catornado,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.269-1,Red Riding Mina,Special,10,0,0,0,0,1,0,5,10,0,0,0,0,0,0,0
+No.270-1,Baby Gao,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.271-1,Crazed Yuki,Uber Rare,3,0,3,0,0,0,0,1,0,0,0,0,0,0,0,0
+No.272-1,Shining Amaterasu,Uber Rare,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+No.273-1,Splendid Ganesha,Uber Rare,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+No.274-1,Cheerleader Cat,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.275-1,Tropical Kalisa,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.276-1,Midsummer Rabbit,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.277-1,Sunny Neneko,Super Rare,3,0,0,3,3,0,0,3,0,0,0,0,0,0,1,0
+No.278-1,Funghi,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.279-1,Tanky,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.280-1,White Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.281-1,Fortressy,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.282-1,Futenyan,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.283-1,Awa-Odori Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.284-1,Pai-Pai,Uber Rare,15,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+No.285-1,Express Cat,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.287-1,Strike Unit R.E.I.,Uber Rare,0,15,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+No.288-1,Little Leaguer Cat,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.289-1,Madoka Kaname,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.290-1,Homura Akemi,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.291-1,Sayaka Miki,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.292-1,Mami Tomoe,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.293-1,Kyoko Sakura,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.294-1,Kyubey,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.295-1,Madoka Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.296-1,Homura Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.297-1,Sayaka Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.298-1,Mami Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.299-1,Kyoko Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.300-1,Li'l Madoka,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.301-1,Li'l Homura,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.302-1,Kyubey Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.303-1,Lilith Cat,Uber Rare,1,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0
+No.304-1,Food Stall Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.305-1,Mighty Kat-A-Pult,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.306-1,Mighty Drednot,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.307-1,Mighty Bomburr,Uber Rare,4,7,0,4,3,0,0,3,0,0,0,0,0,0,0,0
+No.308-1,Vaulter Cat,Super Rare,2,1,4,1,0,0,0,1,0,0,0,0,0,0,0,0
+No.309-1,Gardener Cat,Rare,0,0,2,0,0,0,0,0,2,1,0,3,2,0,0,0
+No.310-1,Neko Hakase,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.311-1,Yuletide Nurse,Uber Rare,0,1,0,5,0,0,0,0,0,0,0,0,0,0,0,0
+No.312-1,Li'l Fish Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.313-1,Li'l Lizard Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.314-1,Li'l Titan Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.315-1,Years-End Neneko,Super Rare,0,0,0,0,0,0,0,0,0,3,3,0,3,0,0,1
+No.316-1,PIKOTARO,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.317-1,Wrathful Poseidon,Uber Rare,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,1
+No.318-1,CPAC,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.319-1,Miko Mitama,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.320-1,Killer Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.322-1,Nazousagi,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.323-1,Sarukani,Uber Rare,0,3,7,2,7,0,0,4,0,0,0,0,0,0,0,0
+No.324-1,Miyamoku Musashi,Special,0,10,10,10,10,1,0,0,0,0,0,0,0,0,0,0
+No.325-1,Curling Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.326-1,Welterweight Cat,Rare,2,2,0,1,3,0,0,0,0,0,2,0,0,0,0,0
+No.327-1,Mobius,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.328-1,Belial,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.329-1,Happy 100,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.330-1,Eggy Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.331-1,Springtime Kenshin,Uber Rare,0,0,0,0,5,0,0,0,0,0,0,0,0,0,1,0
+No.332-1,Bunny & Canard,Uber Rare,5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.333-1,Easter Neneko,Super Rare,0,0,0,3,0,0,0,3,3,0,0,0,3,0,1,0
+No.334-1,Shadow Gao,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.335-1,Trickster Himeyuri,Uber Rare,4,6,2,0,6,0,0,3,0,0,0,0,0,0,0,0
+No.336-1,Sea Maiden Ruri,Uber Rare,8,4,4,2,0,0,0,3,0,0,0,0,0,0,0,0
+No.337-1,Queen Reika,Uber Rare,4,0,6,6,2,0,0,3,0,0,0,0,0,0,0,0
+No.338-1,HMS Princess,Uber Rare,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0
+No.339-1,Imagawa Yoshimoto,Uber Rare,3,4,7,0,4,0,0,3,0,0,0,0,0,0,0,0
+No.341-1,Redhead Yuki Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.342-1,Lost World Yuki,Uber Rare,0,0,0,3,3,0,0,1,0,0,0,0,0,0,0,0
+No.343-1,Maneki Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.344-1,Slug Jockey Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.345-1,Orthos,Super Rare,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.346-1,Michelia,Uber Rare,0,3,0,0,3,0,0,1,0,0,0,0,0,0,0,0
+No.347-1,Todomeki,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.348-1,Gudetama Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.349-1,Gudetama Plate,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.350-1,Gudegude Pudding,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.351-1,Nisetama Army,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.352-1,Twinstars,Uber Rare,3,0,6,2,3,0,0,3,0,0,0,0,0,0,0,0
+No.353-1,Hermit Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.355-1,Seashore Kai,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.356-1,Mighty Rekon Korps,Uber Rare,0,4,3,7,4,0,0,3,0,0,0,0,0,0,0,0
+No.357-1,Nora,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.358-1,Wolfchild Deale,Uber Rare,1,1,0,2,2,0,0,5,0,0,0,0,0,0,0,0
+No.359-1,Graveflower Verbena,Uber Rare,1,2,0,1,2,0,0,5,0,0,0,0,0,0,0,0
+No.360-1,Bora,Uber Rare,4,3,0,7,3,0,0,3,0,0,0,0,0,0,0,0
+No.361-1,Mizli,Uber Rare,4,3,4,7,0,0,0,3,0,0,0,0,0,0,0,0
+No.362-1,Aer,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.363-1,Saber,Uber Rare,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0
+No.364-1,Rin Tohsaka,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.365-1,Illyasviel,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.366-1,Archer,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.367-1,Lancer,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.368-1,Rider,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.369-1,Gilgamesh,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.370-1,Saber the Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.371-1,Sakura the Cat,Rare,0,0,0,0,0,0,0,0,1,0,2,1,0,0,0,0
+No.372-1,Rin the Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.373-1,Illya the Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.374-1,Li'l Shirou,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.375-1,Li'l Sakura,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.376-1,Coin Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.377-1,Rover Cat,Rare,0,0,0,2,0,0,0,0,1,2,3,0,2,0,0,0
+No.378-1,Fencer Cat,Super Rare,1,0,1,4,2,0,0,1,0,0,0,0,0,0,0,0
+No.379-1,Dark Mitama,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.380-1,Volley Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.381-1,D'artanyan,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.382-1,Farmer Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.383-1,Glass Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.384-1,Masked Yulala,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.385-1,Satori Hikami & Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.386-1,Akio Yabe,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.387-1,Sairi Nijitani,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.388-1,Misaki Konno,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.389-1,Ren Katagiri,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.390-1,Karin Nekozuka,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.391-1,Aoi Hayakawa,Super Rare,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0
+No.392-1,Mizuki Tachibana,Super Rare,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0
+No.393-1,Hijiri Rokudo,Super Rare,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.394-1,Saki Nijima,Uber Rare,0,3,3,0,0,0,0,1,0,0,0,0,0,0,0,0
+No.395-1,Subaru Hoshi,Uber Rare,3,0,0,0,3,0,0,1,0,0,0,0,0,0,0,0
+No.396-1,Miyabi Oyama,Uber Rare,0,3,0,3,0,0,0,1,0,0,0,0,0,0,0,0
+No.397-1,Ganglion,Uber Rare,6,3,0,6,3,0,0,3,0,0,0,0,0,0,0,0
+No.398-1,Sakura Sonic,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.399-1,Honeyto-Kun,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.400-1,Mentori,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.401-1,Imoto,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.402-1,Voli,Uber Rare,0,4,4,7,3,0,0,3,0,0,0,0,0,0,0,0
+No.403-1,Shinji & Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.404-1,Gendo & Fuyutsuki Cats,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.405-1,Giraffe Unit-01,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.406-1,Kaworu & Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.407-1,Rei Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.408-1,Asuka Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.409-1,Mari Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.410-1,Rei Ayanami,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.411-1,Asuka Langley,Super Rare,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.412-1,Mari Illustrious,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.413-1,Eva Unit-00,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.414-1,Eva Unit-01,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.415-1,Eva Unit-02,Uber Rare,3,3,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+No.416-1,Shinji Cat,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.417-1,Moon Operators,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.418-1,Mighty Thermae D-Lux,Uber Rare,4,7,3,0,4,0,0,3,0,0,0,0,0,0,0,0
+No.419-1,Crazed Moneko,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.420-1,Pokota,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.421-1,Ovis,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.422-1,Coco,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.423-1,Moe Uzumasa & Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.424-1,Saki Matsuga & Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.425-1,Misa Ono & Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.426-1,Rei Uzumasa & Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.427-1,Mecha-Bun,Special,0,0,0,0,0,1,0,10,0,5,0,5,5,0,0,0
+No.428-1,Cat Clan Heroes,Uber Rare,0,0,0,0,0,0,0,0,3,3,3,0,0,1,0,1
+No.429-1,Souma Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.430-1,Otaku Geek Cat,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.431-1,Gude-Cat Machine,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.432-1,Detective Vigler,Uber Rare,3,6,3,6,0,0,0,3,0,0,0,0,0,0,0,0
+No.435-1,White Swordsman Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.436-1,Li'l Valkyrie,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.437-1,Nobiluga,Uber Rare,5,6,5,0,5,0,0,2,0,0,0,0,0,0,0,0
+No.438-1,Cat God the Great,Special,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+No.439-1,Waverider Kuu,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.440-1,Empress Chronos,Uber Rare,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+No.441-1,Bebe,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.442-1,D'arktanyan,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.443-1,Lone Cat and Kitten,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.444-1,Driller Cat,Super Rare,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,1
+No.445-1,Piledriver Cat,Super Rare,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,1
+No.446-1,Cutter Cat,Super Rare,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,1
+No.447-1,Backhoe Cat,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,1
+No.448-1,Miter Saw Cat,Super Rare,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,1
+No.449-1,Musashi Miyamoto,Legend Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.450-1,Headmistress Jeanne,Legend Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.451-1,High Lord Babel,Legend Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.452-1,Ushiwakamaru,Legend Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.453-1,Primordial Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.454-1,Kitarou,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.455-1,Medama-Oyaji,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.456-1,Wonder MOMOCO,Legend Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.457-1,Sakura Matou,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.458-1,Shirou the Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.459-1,Archer the Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.460-1,Rider the Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.461-1,Kotomine & Gilgamesh Cats,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.462-1,Legeluga,Legend Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.463-1,Filibuster Cat X,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.464-1,Mighty Kristul Muu,Legend Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.465-1,Dogumaru,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.467-1,Black Zeus,Legend Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.468-1,Super Zeus,Uber Rare,2,2,1,0,1,0,0,1,0,0,0,0,0,0,0,0
+No.469-1,Holy Phoenix,Uber Rare,0,3,0,3,0,0,0,1,0,0,0,0,0,0,0,0
+No.470-1,Super Devil,Uber Rare,2,0,0,0,4,0,0,1,0,0,0,0,0,0,0,0
+No.471-1,Satanmaria,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.472-1,Heracrist,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.473-1,Fiendish Nero,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.474-1,Prince Yamato,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.475-1,Rosary Angel,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.476-1,Wakamiko Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.477-1,Cat Devil,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.478-1,Nekonosuke,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.479-1,Lumina,Legend Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.480-1,Gummy Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.481-1,Neko-Musume,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.482-1,Doktor Heaven,Legend Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.483-1,Benevolent Souma,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.484-1,Kano & Souma,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.485-1,Li'l Valkyrie Dark,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.486-1,Calette,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.487-1,Hina,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.488-1,Eva Unit-08,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.489-1,AAA Wunder,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.490-1,Misato Katsuragi,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.491-1,Ritsuko Akagi,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.492-1,Rei Ayanami (???),Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.494-1,Gaia the Creator,Legend Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.495-1,Seabreeze Coppermine,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.496-1,Matador Cat,Rare,2,0,0,0,0,0,0,0,1,1,0,1,0,0,0,1
+No.497-1,Narita Kaihime,Uber Rare,1,1,3,0,1,0,0,5,0,0,0,0,0,0,0,0
+No.502-1,Cat Bros,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.503-1,Myrcia,Uber Rare,2,2,1,1,0,0,0,5,0,0,0,0,0,0,0,0
+No.504-1,2D Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.505-1,Fatherly Cat (Shopkeeper),Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.506-1,Relentless Gladios,Uber Rare,2,2,0,1,1,0,0,5,0,0,0,0,0,0,0,0
+No.507-1,Eyewaltz,Uber Rare,3,3,0,0,0,0,0,6,0,0,0,0,0,0,0,0
+No.508-1,Mightycat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.509-1,Ryu Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.510-1,Chun-Li Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.511-1,Akuma,Legend Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.512-1,Ryu,Uber Rare,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0
+No.513-1,Chun-Li,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.514-1,Guile,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.515-1,Zangief,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.516-1,Blanka,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.517-1,Dhalsim,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.518-1,Ken,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.519-1,Akuma Giraffe,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.520-1,Lasvoss,Uber Rare,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,10
+No.521-1,Good-Luck Ebisu,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.522-1,Medusa Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.523-1,Nymph Cat,Super Rare,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0
+No.524-1,Wushu Cat,Rare,0,2,0,0,0,0,0,0,2,0,3,2,1,0,0,0
+No.525-1,Sorakara,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.526-1,Kintaro,Uber Rare,4,3,0,3,8,2,0,0,0,0,0,0,0,0,0,0
+No.527-1,Snow Angel Twinstars,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.528-1,Slime Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.529-1,Cossack Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.530-1,Kasli the Scourge,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.531-1,Herme,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.532-1,Teacher BearCat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.533-1,Urs & Fenrir,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.534-1,Sharpshooter Saki,Uber Rare,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,1
+No.535-1,Hades the Punisher,Uber Rare,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,1
+No.536-1,Hatsune Miku,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.537-1,Sakura Miku,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.538-1,Kagamine Rin & Len,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.539-1,Miku Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.540-1,Rugby Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.541-1,U.F.O. Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.542-1,Yakisoba Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.543-1,Cat Boy,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.544-1,Kasli the Bane,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.545-1,Kyosaka Nanaho,Legend Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.546-1,Phantom Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.547-1,Papaluga,Uber Rare,0,5,0,0,5,1,0,0,0,0,0,0,0,0,1,0
+No.548-1,Night Oracle Rei,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.549-1,The 4th Angel,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.550-1,The 6th Angel,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.551-1,The 10th Angel,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.552-1,The 9th Angel,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.553-1,Kaworu Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.554-1,Bakery Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.555-1,Master Uril,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.556-1,Shaman Khan,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.557-1,Holy Knight Alibaba,Super Rare,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0
+No.558-1,Heavenly Jack,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.559-1,Gacha Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.560-1,Hell Warden Emma,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.561-1,Megurine Luka,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.562-1,MEIKO & Cat,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.563-1,Luka Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.564-1,Squirtgun Saki,Uber Rare,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,1
+No.565-1,Summerluga,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.566-1,Suntan Cat,Super Rare,0,0,3,3,3,0,0,5,0,0,0,0,0,0,0,0
+No.567-1,Lifeguard Cats,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.568-1,Li'l Clops Cat Egg,Special,3,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0
+No.569-1,Idi:N,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.570-1,Gravi,Uber Rare,4,3,0,7,4,0,0,3,0,0,0,0,0,0,0,0
+No.571-1,Skull Rider Vars,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.572-1,E. Honda,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.573-1,Balrog,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.574-1,Vega,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.575-1,Sagat,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.576-1,M. Bison,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.577-1,C. Honda,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.578-1,Balrog Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.579-1,Vega Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.580-1,Sagat Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.581-1,M. Bison Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.582-1,Stone Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.583-1,Hatsune Miku: MM2020 Osaka,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.584-1,Hatsune Miku: MM2020 Tokyo,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.585-1,Keiji Claus,Uber Rare,5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.586-1,Baby Garu,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.587-1,Emperor Cat,Legend Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.588-1,Sweet Aphrodite,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.589-1,First-Love Myrcia,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.590-1,Valentine's Neneko,Super Rare,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+No.591-1,Snow Miku 2021,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.592-1,KAITO & Cat,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.593-1,Neko Rin,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.594-1,Neko Len,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.595-1,Mighty Aethur Ltd.,Uber Rare,6,3,6,3,0,0,0,3,0,0,0,0,0,0,0,0
+No.596-1,Blooming Kamukura,Uber Rare,8,0,4,3,3,0,0,3,0,0,0,0,0,0,0,0
+No.597-1,Ranma Saotome (M),Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.598-1,Akane Tendo,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.599-1,Ryoga Hibiki (Pig),Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.600-1,Shampoo (Cat),Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.601-1,Mousse (Duck),Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.602-1,Happosai,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.603-1,Ukyo Kuonji (GR),Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.604-1,Tatewaki Kuno (Gi),Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.605-1,Ranma Cat (M),Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.606-1,Akane Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.607-1,Panda Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.608-1,Adventurer Kanna,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.609-1,Wafer Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.610-1,Dark Aegis Garu,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.611-1,Gold Brick Cat,Special,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+No.612-1,Godzilla Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.613-1,Princess Cat,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.614-1,Elder Mask Doron,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.615-1,Kaguya of the Coast,Uber Rare,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0
+No.616-1,Kabuto Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.617-1,Kuwagata Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.618-1,Summoner Satoru,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.619-1,Shiro Amakusa,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.620-1,Lilin,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+No.621-1,Hevijak the Wicked,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.622-1,Aku Researcher,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.623-1,Jagando Jr.,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.624-1,Pied Piper Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.625-1,Kunio-kun,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.626-1,Furiluga,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.627-1,Cat Giraffe Modoki,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.628-1,Catnip Tricky,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.629-1,Catnip Dragon,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.630-1,Brainwashed Cat,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.631-1,Calligraphy Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.632-1,Yamii,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.633-1,Mighty Deth-Troy-R,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+No.634-1,Shitakiri Sparrow,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.635-1,White Knight Cyclops,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.636-1,Million-Dollar Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.637-1,Brainwashed Tank Cat,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.638-1,Sora & Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.639-1,Nana & Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.640-1,Emilia & Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.642-1,Iz the Dancer,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.643-1,Lucifer the Fallen,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.644-1,Superfeline,Normal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.645-1,Sweet Love Mekako,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.646-1,Brainwashed Axe Cat,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.647-1,Firecracker Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.648-1,Huntress Terun,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.649-1,Lovestruck Lesser Demon,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.650-1,Hattori Hanzo,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.651-1,Secret Crush Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.652-1,Tomboy Lion Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.653-1,Chalkboard Eraser Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.654-1,Elder Beast Naala,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.655-1,Brainwashed Gross Cat,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.656-1,Bliza,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.657-1,Ancient Egg: N001,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.658-1,Iz the Dancer of Grief,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.659-1,Ancient Egg: N101,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.660-1,Ancient Egg: N102,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.661-1,Sea Serpent Daliasan,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.662-1,Chronos the Bride,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.663-1,Brainwashed Cow Cat,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.664-1,Ancient Egg: N103,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.665-1,Ancient Egg: N104,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.666-1,Ancient Egg: N201,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.667-1,Night Beach Lilin,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.668-1,Brainwashed Bird Cat,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.669-1,Cat Tengu,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.670-1,Ancient Egg: N003,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.671-1,Ancient Egg: N202,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.672-1,Ranma Saotome (Leotard),Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.673-1,Genma Saotome (Panda),Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.675-1,Mighty Carrowsell,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.676-1,Ancient Egg: N105,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.677-1,Ancient Egg: N106,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.678-1,Osamu Mikumo & Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.679-1,Yuma Kuga & Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.680-1,Chika Amatori & Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.681-1,Sakura,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.682-1,Luke,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.683-1,Spectral Goth Vega,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.684-1,Count Yukimura,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.685-1,Brainwashed Fish Cat,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.686-1,Ancient Egg: N004,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.687-1,Goddess of Light Sirius,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.688-1,Reindeer Terun,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.689-1,Brainwashed Lizard Cat,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.690-1,Meditation Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.691-1,Child of Destiny Phono,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.692-1,Ancient Egg: N000,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.693-1,Issun Boshi,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.694-1,White Butler Vigler,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.695-1,Brainwashed Titan Cat,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.696-1,Killer Tank Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.697-1,Class Rep Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.698-1,Ancient Egg: N107,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.699-1,Thunder Jack,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.700-1,Rabbit Satoru,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.701-1,Ancient Egg: N005,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.702-1,Kamen Rider Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.703-1,Cat Godzilla,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.704-1,Evangelion Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.705-1,Ultraman Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.706-1,King of Doom Phono,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.707-1,Ancient Egg: N108,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.708-1,Ancient Egg: N109,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.709-1,Jetpack Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.710-1,One-Eyed Asuka,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.711-1,Eva Unit-13,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.712-1,Betrothed Balaluga,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.713-1,Kaoluga,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.714-1,Ancient Egg: N203,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.715-1,Coastal Explorer Kanna,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.716-1,Mighty Sphinx Korps,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.717-1,Ancient Egg: N111,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.718-1,Ancient Egg: N110,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.719-1,Maize Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.720-1,Tekachi,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.721-1,Ancient Egg: N006,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.722-1,High School Kingpin Riki,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.723-1,Hatsune Miku XVI,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.724-1,Lightmother Aset,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.725-1,Ancient Egg: N112,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.726-1,Ninja Girl Tomoe,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.727-1,Medal King Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.728-1,SOL DAE ROKKER,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.729-1,Master of Mind Soractes,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.731-1,Ancient Egg: N204,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.732-1,Daybreaker Izanagi,Legend Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.734-1,Pegasa,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.736-1,Principal Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.737-1,Frozen Rose Cat,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.738-1,Floral Kalisa,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.739-1,Izanami of Dusk,Legend Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.747-1,Kenshin Himura,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.748-1,Sanosuke Sagara,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.749-1,Aoshi Shinomori,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.750-1,Hajime Saito,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.751-1,Li'l Kaoru,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.752-1,Li'l Yahiko,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.753-1,Kenshin Cat,Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.754-1,Kaoru Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.755-1,Akechi Mitsuhide,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.757-1,Cake Machine,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.758-1,Ancient Egg: N205,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.759-1,Trixi the Merc,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.760-1,Music Fest Thundia,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.761-1,Gunduros,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.763-1,Heavenly God Super Zeus,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.764-1,Dynasaurus Cat,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.766-1,Ancient Egg: N206,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.767-1,Sardine,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.768-1,Squid,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.769-1,Taitenki,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.770-1,Hanasaka Cat,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.772-1,Master of Life Dr. Nova,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.773-1,Pumpkin Sodom,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.774-1,Mummy Sumo,Super Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.775-1,Mech Patrol Axel,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.777-1,Warrior Cat,Special,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No.778-1,Winter General Kaihime,Uber Rare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

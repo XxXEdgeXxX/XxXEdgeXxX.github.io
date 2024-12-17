@@ -1,0 +1,30 @@
+{
+  "number": "No.197-1",
+  "data": [
+    {
+      "type": "Catfruit",
+      "text": "3",
+      "color": "green"
+    },
+    {
+      "type": "Catfruit",
+      "text": "4",
+      "color": "purple"
+    },
+    {
+      "type": "Catfruit",
+      "text": "3",
+      "color": "red"
+    },
+    {
+      "type": "Catfruit",
+      "text": "8",
+      "color": "blue"
+    },
+    {
+      "type": "Catfruit",
+      "text": "2",
+      "color": "ancient"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "number": "No.496-1",
+  "data": [
+    {
+      "type": "Catfruit",
+      "text": "2",
+      "color": "red"
+    },
+    {
+      "type": "Catfruit Seed",
+      "text": "1",
+      "color": "green"
+    },
+    {
+      "type": "Catfruit Seed",
+      "text": "1",
+      "color": "red"
+    },
+    {
+      "type": "Catfruit Seed",
+      "text": "1",
+      "color": "blue"
+    },
+    {
+      "type": "Catfruit Seed",
+      "text": "1",
+      "color": "Epic"
+    }
+  ]
+}

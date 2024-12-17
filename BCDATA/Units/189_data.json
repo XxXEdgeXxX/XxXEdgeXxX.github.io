@@ -1,0 +1,20 @@
+{
+  "number": "No.189-1",
+  "data": [
+    {
+      "type": "Catfruit",
+      "text": "6",
+      "color": "purple"
+    },
+    {
+      "type": "Catfruit",
+      "text": "3",
+      "color": "Epic"
+    },
+    {
+      "type": "Catfruit Seed",
+      "text": "2",
+      "color": "#a0a0a0"
+    }
+  ]
+}

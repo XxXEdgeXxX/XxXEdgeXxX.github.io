@@ -1,0 +1,30 @@
+{
+  "number": "No.277-1",
+  "data": [
+    {
+      "type": "Catfruit",
+      "text": "3",
+      "color": "red"
+    },
+    {
+      "type": "Catfruit",
+      "text": "3",
+      "color": "blue"
+    },
+    {
+      "type": "Catfruit",
+      "text": "3",
+      "color": "yellow"
+    },
+    {
+      "type": "Catfruit",
+      "text": "3",
+      "color": "Epic"
+    },
+    {
+      "type": "Catfruit Seed",
+      "text": "1",
+      "color": "gold"
+    }
+  ]
+}

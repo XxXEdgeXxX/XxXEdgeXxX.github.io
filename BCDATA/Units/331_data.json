@@ -1,0 +1,20 @@
+{
+  "number": "No.331-1",
+  "data": [
+    {
+      "type": "Catfruit",
+      "text": "5",
+      "color": "yellow"
+    },
+    {
+      "type": "Catfruit",
+      "text": "2",
+      "color": "#a0a0a0"
+    },
+    {
+      "type": "Catfruit Seed",
+      "text": "1",
+      "color": "gold"
+    }
+  ]
+}

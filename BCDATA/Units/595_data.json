@@ -1,0 +1,30 @@
+{
+  "number": "No.595-1",
+  "data": [
+    {
+      "type": "Catfruit",
+      "text": "3",
+      "color": "green"
+    },
+    {
+      "type": "Catfruit",
+      "text": "6",
+      "color": "purple"
+    },
+    {
+      "type": "Catfruit",
+      "text": "6",
+      "color": "red"
+    },
+    {
+      "type": "Catfruit",
+      "text": "3",
+      "color": "blue"
+    },
+    {
+      "type": "Catfruit",
+      "text": "3",
+      "color": "Epic"
+    }
+  ]
+}

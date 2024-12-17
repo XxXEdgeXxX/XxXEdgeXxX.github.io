@@ -1,0 +1,20 @@
+{
+  "number": "No.303-1",
+  "data": [
+    {
+      "type": "Catfruit",
+      "text": "1",
+      "color": "red"
+    },
+    {
+      "type": "Catfruit",
+      "text": "5",
+      "color": "yellow"
+    },
+    {
+      "type": "Catfruit",
+      "text": "1",
+      "color": "#a0a0a0"
+    }
+  ]
+}
