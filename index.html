@@ -10,50 +10,60 @@
     </style>
 </head>
 <body>
-    <h1>Select a Value</h1>
-    <select id="dropdown" onchange="showData()">
-        <!-- Options will be populated here -->
-    </select>
+<h1>Select a Value</h1>
+<label for="statusDropdown">Status:</label>
+<select id="statusDropdown" onchange="populateFirstDropdown()">
+    <option value="1">Normal</option>
+    <option value="2">Evolved</option>
+    <option value="3">True</option>
+</select>
 
-    <div id="dataDisplay"></div>
+<label for="valueDropdown">Value:</label>
+<select id="valueDropdown" onchange="showData()">
+    <!-- Options will be populated here -->
+</select>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            fetch('BCDATA/UPDATEDUNITDATA.csv')
-                .then(response => response.text())
-                .then(data => {
-                    let rows = data.split('\n');
-                    let dropdown = document.getElementById('dropdown');
-                    rows.forEach((row, index) => {
-                        if (index > 0 && row) { // skip the header
-                            let columns = row.split(',');
-                            let option = document.createElement('option');
-                            option.value = index; // store row index
-                            option.text = columns[0]; // assuming the first column is for dropdown values
-                            dropdown.appendChild(option);
-                        }
-                    });
-                });
+<div id="dataDisplay"></div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        fetch('BCDATA/UPDATEDUNITDATA.csv')
+            .then(response => response.text())
+            .then(data => {
+                window.csvData = data.split('\n');
+                populateFirstDropdown(); // Initial population
+            });
+    });
+
+    function populateFirstDropdown() {
+        let statusDropdown = document.getElementById('statusDropdown');
+        let valueDropdown = document.getElementById('valueDropdown');
+        let selectedStatus = statusDropdown.value;
+        valueDropdown.innerHTML = ''; // Clear existing options
+
+        csvData.forEach((row, index) => {
+            if (index > 0 && row) { // skip the header
+                let columns = row.split(',');
+                let option = document.createElement('option');
+                option.value = index; // store row index
+                option.text = columns[selectedStatus]; // use the selected status column
+                valueDropdown.appendChild(option);
+            }
         });
+    }
 
-        function showData() {
-            let dropdown = document.getElementById('dropdown');
-            let selectedIndex = dropdown.value;
-            fetch('your-csv-file.csv')
-                .then(response => response.text())
-                .then(data => {
-                    let rows = data.split('\n');
-                    let selectedRow = rows[selectedIndex];
-                    let columns = selectedRow.split(',');
+    function showData() {
+        let valueDropdown = document.getElementById('valueDropdown');
+        let selectedIndex = valueDropdown.value;
+        let selectedRow = csvData[selectedIndex].split(',');
 
-                    let dataDisplay = document.getElementById('dataDisplay');
-                    dataDisplay.innerHTML = `
-                        <p>Column 1: ${columns[1]}</p>
-                        <p>Column 2: ${columns[2]}</p>
-                        <p>Column 3: ${columns[3]}</p>
-                    `;
-                });
-        }
-    </script>
+        let dataDisplay = document.getElementById('dataDisplay');
+        dataDisplay.innerHTML = `
+                <p>Normal: ${selectedRow[1]}</p>
+                <p>Evolved: ${selectedRow[2]}</p>
+                <p>True: ${selectedRow[3]}</p>
+            `;
+    }
+</script>
 </body>
 </html>
