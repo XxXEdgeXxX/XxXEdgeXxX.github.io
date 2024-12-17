@@ -45,7 +45,6 @@
             if (index > 0 && row) { // skip the header
                 let columns = row.split(',');
                 let option = document.createElement('option');
-                if(columns[selectedStatus] === "No True Form")
                 option.value = index; // store row index
                 option.text = columns[selectedStatus]; // use the selected status column
                 valueDropdown.appendChild(option);
@@ -60,40 +59,40 @@
 
         let dataDisplay = document.getElementById('dataDisplay');
         dataDisplay.innerHTML = `
-                <p>Number: ${selectedRow[0]}</p> 
-                <p>Name: ${selectedRow[1]}</p> 
-                <p>Evolved Form: ${selectedRow[2]}</p> 
-                <p>True Form: ${selectedRow[3]}</p> 
-                <p>Rarity: ${selectedRow[4]}</p> 
-                <p>TF: ${selectedRow[5]}</p> 
-                <p>Red Catfruit: ${selectedRow[6]}</p> 
-                <p>Purple Catfruit: ${selectedRow[7]}</p> 
-                <p>Blue Catfruit: ${selectedRow[8]}</p> 
-                <p>Green Catfruit: ${selectedRow[9]}</p> 
-                <p>Yellow Catfruit: ${selectedRow[10]}</p> 
-                <p>Ancient Catfruit: ${selectedRow[11]}</p> 
-                <p>Gold Catfruit: ${selectedRow[12]}</p> 
-                <p>Aku Catfruit: ${selectedRow[13]}</p> 
-                <p>Epic Catfruit: ${selectedRow[14]}</p> 
-                <p>Red Catfruit Seed: ${selectedRow[15]}</p> 
-                <p>Green Catfruit Seed: ${selectedRow[16]}</p> 
-                <p>Purple Catfruit Seed: ${selectedRow[17]}</p> 
-                <p>Blue Catfruit Seed: ${selectedRow[18]}</p> 
-                <p>Yellow Catfruit Seed: ${selectedRow[19]}</p> 
-                <p>Ancient Catfruit Seed: ${selectedRow[20]}</p> 
-                <p>Gold Catfruit Seed: ${selectedRow[21]}</p> 
-                <p>Aku Catfruit Seed: ${selectedRow[22]}</p> 
-                <p>Epic Catfruit Seed: ${selectedRow[23]}</p> 
-                <p>Purple Behemoth Stone: ${selectedRow[24]}</p> 
-                <p>Red Behemoth Stone: ${selectedRow[25]}</p> 
-                <p>Blue Behemoth Stone: ${selectedRow[26]}</p> 
-                <p>Green Behemoth Stone: ${selectedRow[27]}</p> 
-                <p>Yellow Behemoth Stone: ${selectedRow[28]}</p> 
-                <p>Epic Behemoth Stone: ${selectedRow[29]}</p> 
-                <p>Purple Behemoth Gem: ${selectedRow[30]}</p> 
-                <p>Blue Behemoth Gem: ${selectedRow[31]}</p> 
-                <p>Red Behemoth Gem: ${selectedRow[32]}</p> 
-                <p>Green Behemoth Gem: ${selectedRow[33]}</p> 
+                <p>Number: ${selectedRow[0]}</p>
+                <p>Name: ${selectedRow[1]}</p>
+                <p>Evolved Form: ${selectedRow[2]}</p>
+                <p>True Form: ${selectedRow[3]}</p>
+                <p>Rarity: ${selectedRow[4]}</p>
+                <p>TF: ${selectedRow[5]}</p>
+                <p>Red Catfruit: ${selectedRow[6]}</p>
+                <p>Purple Catfruit: ${selectedRow[7]}</p>
+                <p>Blue Catfruit: ${selectedRow[8]}</p>
+                <p>Green Catfruit: ${selectedRow[9]}</p>
+                <p>Yellow Catfruit: ${selectedRow[10]}</p>
+                <p>Ancient Catfruit: ${selectedRow[11]}</p>
+                <p>Gold Catfruit: ${selectedRow[12]}</p>
+                <p>Aku Catfruit: ${selectedRow[13]}</p>
+                <p>Epic Catfruit: ${selectedRow[14]}</p>
+                <p>Red Catfruit Seed: ${selectedRow[15]}</p>
+                <p>Green Catfruit Seed: ${selectedRow[16]}</p>
+                <p>Purple Catfruit Seed: ${selectedRow[17]}</p>
+                <p>Blue Catfruit Seed: ${selectedRow[18]}</p>
+                <p>Yellow Catfruit Seed: ${selectedRow[19]}</p>
+                <p>Ancient Catfruit Seed: ${selectedRow[20]}</p>
+                <p>Gold Catfruit Seed: ${selectedRow[21]}</p>
+                <p>Aku Catfruit Seed: ${selectedRow[22]}</p>
+                <p>Epic Catfruit Seed: ${selectedRow[23]}</p>
+                <p>Purple Behemoth Stone: ${selectedRow[24]}</p>
+                <p>Red Behemoth Stone: ${selectedRow[25]}</p>
+                <p>Blue Behemoth Stone: ${selectedRow[26]}</p>
+                <p>Green Behemoth Stone: ${selectedRow[27]}</p>
+                <p>Yellow Behemoth Stone: ${selectedRow[28]}</p>
+                <p>Epic Behemoth Stone: ${selectedRow[29]}</p>
+                <p>Purple Behemoth Gem: ${selectedRow[30]}</p>
+                <p>Blue Behemoth Gem: ${selectedRow[31]}</p>
+                <p>Red Behemoth Gem: ${selectedRow[32]}</p>
+                <p>Green Behemoth Gem: ${selectedRow[33]}</p>
                 <p>Yellow Behemoth Gem: ${selectedRow[34]}</p>
             `;
     }
