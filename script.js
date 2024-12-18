@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    var Version = "1.0.4";
+    var Version = "1.0.5";
 
     const formSelect = document.getElementById('formSelect');
     const nameSelect = document.getElementById('nameSelect');
