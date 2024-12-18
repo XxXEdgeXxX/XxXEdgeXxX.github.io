@@ -1,61 +1,172 @@
 body {
     font-family: Arial, sans-serif;
-}
-
-h1 {
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
     text-align: center;
-}
-
-div {
+    font-size: 2em;
     margin-bottom: 20px;
-    text-align: center;
-}
-
-label {
-    margin-right: 10px;
-}
-
-select {
+  }
+  
+  .container {
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+  }
+  
+  .UnitData,
+  #sidebar {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .UnitData {
+    flex-grow: 2;
+  }
+  
+  #sidebar {
+    flex-grow: 1;
+    width: 250px;
+    position: relative;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  select {
     padding: 5px;
-}
-
-#dataDisplay p {
-    text-align: center;
-    font-size: 1.2em;
-}
-
-#imageSelector {
-    text-align: center;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  #dataDisplay p {
+    text-align: left;
+    font-size: 1em;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  #dataDisplay p img {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+  }
+  
+  #imageSelector {
     margin-top: 20px;
-}
-
-#tabList {
+  }
+  
+  #tabList {
     display: flex;
     justify-content: center;
     list-style: none;
     padding: 0;
-}
-
-#tabList li {
+    margin-bottom: 10px;
+  }
+  
+  #tabList li {
     margin: 0 10px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
     cursor: pointer;
+  }
+  
+  #imageDisplay {
+    margin-top: 0px;
+  }
+  
+  #imageDisplay img {
+    max-width: 100%;
+    min-width: 300px;
+    max-height: 300px;
+  }
+  
+  #sidebar h3 {
+    margin-bottom: 10px;
+  }
+  
+  #selectedList,
+  #dataSummary {
+    padding: 10px;
+  }
+  
+  #selectedList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  #selectedList li button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: transparent;
+  }
+  #sidebar button {
+    padding: 8px 16px; /* slightly larger padding */
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #eee; /* slightly different bg color */
+    display: block; /* Makes the button take full width */
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#imageDisplay {
-    margin-top: 20px;
+#sidebar button:hover {
+    background-color: #ddd;
 }
 
-#imageDisplay img {
-    max-width: 200px;
-    max-height: 200px;
-    width: auto;
-    height: auto;
+#sidebar button:active {
+    background-color: #ccc;
 }
 
-#dataDisplay img
-{
-    max-width: 40px;
-    max-height: 40px;
-    width: auto;
-    height: auto;
+#selectedList li button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: transparent;
+    margin-left: 5px; /* Add some spacing between text and button */
+}
+
+#selectedList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    cursor: pointer; /* Make the list items look clickable */
+    padding: 5px; /* Add some padding for better click area */
+    border-radius: 3px; /* Optional: Add rounded corners */
+    transition: background-color 0.2s; /* Add a smooth transition for hover effect */
+}
+
+#selectedList li:hover {
+    background-color: #e0e0e0; /* Add a hover background color */
+}
+
+#selectedList li button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: transparent;
+    margin-left: 5px;
 }
