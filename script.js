@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    var Version = "1.0.2";
+    var Version = "1.0.3";
 
 
     const formSelect = document.getElementById('formSelect');
@@ -53,19 +53,93 @@ document.addEventListener('DOMContentLoaded', () => {
         displayData(); // Update displayed data
     }
 
+
     function displayData() {
         const selectedIndex = nameSelect.value;
         const rowData = data[selectedIndex];
-
+    
         dataDisplay.innerHTML = ''; // Clear existing data display
-
-        // Display data in <p> tags
-        for (let i = 4; i < rowData.length; i++) {
-            const p = document.createElement('p');
-            p.textContent = `${data[0][i]}: ${rowData[i]}`; // Column name: value
-            dataDisplay.appendChild(p);
-        }
+    
+        const items = [
+            { color: "Rarity",       index: 4,  category: undefined },
+            { color: "Acquired by",  index: 5,  category: undefined },
+            { color: "Red",          index: 6,  category: "catfruit" },
+            { color: "Purple",       index: 7,  category: "catfruit" },
+            { color: "Blue",         index: 8,  category: "catfruit" },
+            { color: "Green",        index: 9,  category: "catfruit" },
+            { color: "Yellow",       index: 10, category: "catfruit" },
+            { color: "Ancient",      index: 11, category: "catfruit" },
+            { color: "Gold",         index: 12, category: "catfruit" },
+            { color: "Aku",          index: 13, category: "catfruit" },
+            { color: "Epic",         index: 14, category: "catfruit" },
+            { color: "Red",          index: 15, category: "seeds" },
+            { color: "Green",        index: 16, category: "seeds" },
+            { color: "Purple",       index: 17, category: "seeds" },
+            { color: "Blue",         index: 18, category: "seeds" },
+            { color: "Yellow",       index: 19, category: "seeds" },
+            { color: "Ancient",      index: 20, category: "seeds" },
+            { color: "Gold",         index: 21, category: "seeds" },
+            { color: "Aku",          index: 22, category: "seeds" },
+            { color: "Epic",         index: 23, category: "seeds" },
+            { color: "Purple",       index: 24, category: "stones" },
+            { color: "Red",          index: 25, category: "stones" },
+            { color: "Blue",         index: 26, category: "stones" },
+            { color: "Green",        index: 27, category: "stones" },
+            { color: "Yellow",       index: 28, category: "stones" },
+            { color: "Epic",         index: 29, category: "stones" },
+            { color: "Purple",       index: 30, category: "gems" },
+            { color: "Blue",         index: 31, category: "gems" },
+            { color: "Red",          index: 32, category: "gems" },
+            { color: "Green",        index: 33, category: "gems" },
+            { color: "Yellow",       index: 34, category: "gems" },
+        ];
+    
+        items.forEach(item => {
+            const dataValue = rowData[item.index];
+            if (dataValue !== "") {
+                const text = `${item.color} ${item.category ? item.category : ""}: ${dataValue}`;
+                
+                const p = document.createElement('p');
+                p.textContent = text;
+                if (item.category !== undefined) {
+                    const imgSrc = `BCDATA/materials/${item.category}/${item.color}.png`;
+                    const img = document.createElement('img');
+                    img.src = imgSrc;
+                    p.appendChild(img);
+                }
+                dataDisplay.appendChild(p);
+            }
+        });
+    
+        // Create foldout menu for empty data items
+        const detailsElement = document.createElement('details');
+        const summaryElement = document.createElement('summary');
+        summaryElement.textContent = 'See less relevant data';
+        detailsElement.appendChild(summaryElement);
+    
+        items.forEach(item => {
+            const dataValue = rowData[item.index];
+            if (dataValue === "") {
+                const text = `${item.color} ${item.category ? item.category : ""}: ${dataValue}`;
+                
+                const p = document.createElement('p');
+                p.textContent = text;
+                if (item.category !== undefined) {
+                    const imgSrc = `BCDATA/materials/${item.category}/No_${item.color}.png`;
+                    const img = document.createElement('img');
+                    img.src = imgSrc;
+                    p.appendChild(img);
+                }
+                detailsElement.appendChild(p);
+            }
+        });
+    
+        dataDisplay.appendChild(detailsElement);
     }
+    
+    
+    
+    
 
     function loadUnitImages(unitIndex) {
         const jsonPath = 'BCDATA/unit_images.json';
