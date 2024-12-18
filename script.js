@@ -1,9 +1,13 @@
 document.addEventListener('DOMContentLoaded', () => {
+    var Version = "1.0";
+
+
     const formSelect = document.getElementById('formSelect');
     const nameSelect = document.getElementById('nameSelect');
     const dataDisplay = document.getElementById('dataDisplay');
     const tabList = document.getElementById('tabList');
     const imageDisplay = document.getElementById('imageDisplay');
+    console.log("Current version: " + Version);
 
     const data = []; // Initialize an empty array to store CSV data
 
@@ -105,4 +109,6 @@ document.addEventListener('DOMContentLoaded', () => {
     function displayImage(link) {
         imageDisplay.innerHTML = `<img src="${link}" alt="Unit Image">`;
     }
+
+    
 });
