@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    var Version = "1.0.3";
+    var Version = "1.0.4";
 
     const formSelect = document.getElementById('formSelect');
     const nameSelect = document.getElementById('nameSelect');
@@ -140,57 +140,53 @@ document.addEventListener('DOMContentLoaded', () => {
     function displayData() {
         const selectedIndex = nameSelect.value;
         const rowData = data[selectedIndex];
-
         dataDisplay.innerHTML = ''; // Clear existing data display
-
+    
+        const renderItem = (item, dataValue, imagePath) => {
+            const text = `${item.color} ${item.category ? item.category : ""}: ${dataValue}`;
+            const p = document.createElement('p');
+            p.textContent = text;
+    
+            if (item.category) {
+                const img = document.createElement('img');
+                img.src = imagePath;
+                p.appendChild(img);
+            }
+    
+            return p;
+        };
+    
         items.forEach(item => {
             const dataValue = rowData[item.index];
-            if (dataValue !== "") {
-                const text = `${item.color} ${item.category ? item.category : ""}: ${dataValue}`;
-                
-                const p = document.createElement('p');
-                p.textContent = text;
-                if (item.category !== undefined) {
-                    const imgSrc = `BCDATA/materials/${item.category}/${item.color}.png`;
-                    const img = document.createElement('img');
-                    img.src = imgSrc;
-                    p.appendChild(img);
-                }
-                dataDisplay.appendChild(p);
+            if (dataValue) {
+                const imagePath = `BCDATA/materials/${item.category}/${item.color}.png`;
+                dataDisplay.appendChild(renderItem(item, dataValue, imagePath));
             }
         });
-
+    
         // Create foldout menu for empty data items
         const detailsElement = document.createElement('details');
         const summaryElement = document.createElement('summary');
         summaryElement.textContent = 'See less relevant data';
         detailsElement.appendChild(summaryElement);
-
+    
         items.forEach(item => {
             const dataValue = rowData[item.index];
-            if (dataValue === "") {
-                const text = `${item.color} ${item.category ? item.category : ""}: ${dataValue}`;
-                
-                const p = document.createElement('p');
-                p.textContent = text;
-                if (item.category !== undefined) {
-                    const imgSrc = `BCDATA/materials/${item.category}/No_${item.color}.png`;
-                    const img = document.createElement('img');
-                    img.src = imgSrc;
-                    p.appendChild(img);
-                }
-                detailsElement.appendChild(p);
+            if (!dataValue) {
+                const imagePath = `BCDATA/materials/${item.category}/No_${item.color}.png`;
+                detailsElement.appendChild(renderItem(item, dataValue, imagePath));
             }
         });
-
+    
         dataDisplay.appendChild(detailsElement);
-
+    
         // Add button to add current selection to the list
         const addButton = document.createElement('button');
         addButton.textContent = 'Add to List';
         addButton.addEventListener('click', () => addToSelectedList(selectedIndex));
         dataDisplay.appendChild(addButton);
     }
+    
 
     function addToSelectedList(index) {
         const item = data[index];
