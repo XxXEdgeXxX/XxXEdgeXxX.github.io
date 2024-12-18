@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    var Version = "1.0";
+    var Version = "1.0.NaN";
 
 
     const formSelect = document.getElementById('formSelect');
