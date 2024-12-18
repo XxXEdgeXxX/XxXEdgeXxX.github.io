@@ -23,3 +23,32 @@ select {
     text-align: center;
     font-size: 1.2em;
 }
+
+#imageSelector {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#tabList {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+#tabList li {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+#imageDisplay {
+    margin-top: 20px;
+}
+
+#imageDisplay img {
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+}
+
