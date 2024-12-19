@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    var Version = "1.0.5";
+    var Version = "1.0.6";
 
     const formSelect = document.getElementById('formSelect');
     const nameSelect = document.getElementById('nameSelect');
@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const imageDisplay = document.getElementById('imageDisplay');
     const selectedList = document.getElementById('selectedList');
     const dataSummary = document.getElementById('dataSummary');
+    const unitselector = document.getElementById('UnitSelector');
     console.log("Current version: " + Version);
 
     const clearListButton = document.createElement('button');
@@ -20,13 +21,30 @@ document.addEventListener('DOMContentLoaded', () => {
         selectedList.innerHTML = ''; // Clear the list display
         updateDataSummary(); // Update the summary
     }
+    
+  
 
-    const data = []; // Initialize an empty array to store CSV data
+    var coll = document.getElementsByClassName("collapsible");
+          for (var i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+              this.classList.toggle("active");
+              var content = this.nextElementSibling;
+              if (content.style.display === "block") {
+                content.style.display = "none";
+              } else {
+                content.style.display = "block";
+              }
+            });
+            coll[i].nextElementSibling.style.display = "none";
+          }
+    const Unitdata = []; // Initialize an empty array to store CSV data
+    const SmallUnitImages = [];
     const selectedItems = []; // Array to store selected items
 
     const items = [
-        { color: "Rarity",                index: 4,  category: undefined },
-        { color: "Acquired by",           index: 5,  category: undefined },
+        { color: "Rarity",       index: 4,  category: undefined },
+        { color: "Acquired by",  index: 5,  category: undefined },
+        { color: "XP",           index: 35, category: "other" },
         { color: "Red",          index: 6,  category: "catfruit" },
         { color: "Purple",       index: 7,  category: "catfruit" },
         { color: "Blue",         index: 8,  category: "catfruit" },
@@ -56,6 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { color: "Red",          index: 32, category: "gems" },
         { color: "Green",        index: 33, category: "gems" },
         { color: "Yellow",       index: 34, category: "gems" },
+        
     ];
 
 
@@ -64,11 +83,37 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(text => {
             const rows = text.split('\n');
             for (let row of rows) {
-                data.push(row.split(','));
+                Unitdata.push(row.split(','));
             }
             updateNameOptions(); // Initialize the name dropdown
         });
 
+        function loadUnitSelectionImages() {
+            fetch('BCDATA/mini_units.csv')
+              .then(response => response.text())
+              .then(text => {
+                const rows = text.split('\n');
+                const imageLinks = rows.filter(row => !row.startsWith('SUMMON')) // Filter out "SUMMON" entries
+                  .map(row => row.split(',')[0]); // Extract links from the first column
+       
+                // Update unitselector elements with image links
+                const unitOptions = unitselector.querySelectorAll('option');
+                unitOptions.forEach((option, index) => {
+                  if (imageLinks[index]) {
+                    option.style.backgroundImage = `url(${imageLinks[index]})`;
+                    option.style.backgroundSize = 'cover';
+                    option.style.backgroundPosition = 'center';
+                  } else {
+                    // Set a default background or remove existing background if no link found
+                    option.style.backgroundImage = 'none';
+                  }
+                });
+              })
+              .catch(error => {
+                console.error('Error loading mini_units.csv:', error);
+              });
+          }
+    loadUnitSelectionImages();
     formSelect.addEventListener('change', updateNameOptions);
     nameSelect.addEventListener('change', () => {
         displayData();
@@ -118,9 +163,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const formType = formSelect.value;
         nameSelect.innerHTML = ''; // Clear existing options
 
-        for (let row of data.slice(2)) {
+        for (let row of Unitdata.slice(2)) {
             let optionText = '';
-            let optionValue = data.indexOf(row);
+            let optionValue = Unitdata.indexOf(row);
             if (formType === 'number') {
                 optionText = row[0]; // Use the Number field
             } else {
@@ -139,11 +184,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function displayData() {
         const selectedIndex = nameSelect.value;
-        const rowData = data[selectedIndex];
+        const rowData = Unitdata[selectedIndex];
         dataDisplay.innerHTML = ''; // Clear existing data display
     
         const renderItem = (item, dataValue, imagePath) => {
-            const text = `${item.color} ${item.category ? item.category : ""}: ${dataValue}`;
+            const text = `${item.color} ${item.category != undefined && item.category != "other" ? item.category : ""}: ${dataValue}`;
             const p = document.createElement('p');
             p.textContent = text;
     
@@ -189,7 +234,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
 
     function addToSelectedList(index) {
-        const item = data[index];
+        const item = Unitdata[index];
         selectedItems.push(item);
 
         const li = document.createElement('li');
@@ -198,7 +243,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Add click event listener to the list item
         li.addEventListener('click', () => {
             // Find the index of the clicked item in the original data array
-            const clickedIndex = data.indexOf(item);
+            const clickedIndex = Unitdata.indexOf(item);
             if (clickedIndex !== -1) {
                 nameSelect.value = clickedIndex; // Set the nameSelect dropdown
                 displayData(); // Display the data for the clicked item

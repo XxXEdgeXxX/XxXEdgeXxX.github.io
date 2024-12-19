@@ -8,36 +8,441 @@
 </head>
 <body>
     <h1>Evolution cost calculator</h1>
-    <div class="container">
-    <div class="UnitData">
-    <div>
-        <label for="formSelect">Form:</label>
-        <select id="formSelect">
-            <option value="normal">Normal Form</option>
-            <option value="evolved">Evolved Form</option>
-            <option value="true">True Form</option>
-            <option value="number">ID</option>
-        </select>
-    </div>
-    <div>
-        <label for="nameSelect">Name:</label>
-        <select id="nameSelect"></select>
-    </div>
-    <div id="imageSelector">
-        <ul id="tabList"></ul>
-        <div id="imageDisplay"></div>
-    </div>
-    <div id="dataDisplay"></div>  
+    <div class="UnitSelector">
+        <button class="collapsible">Dynamites</button>
+<div class="Banner" id="Dynamites">
+<a onclick="SetNumber(43);" title="Ice Cat"><img alt="Ice Cat" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/0/0b/Uni042_f00.png" width="64"></a><span class="Banner" id="mw-default-size" typeof="mw:File">
+<a onclick="SetNumber(44);" title="Cat Machine"><img alt="Cat Machine" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/4/4f/Uni043_f00.png" width="64"></a></span><span class="Banner" id="mw-default-size" typeof="mw:File">
+<a onclick="SetNumber(45);" title="Lesser Demon Cat"><img alt="Lesser Demon Cat" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/c/cd/Uni044_f00.png" width="64"></a></span><span class="Banner" id="mw-default-size" typeof="mw:File">
+<a onclick="SetNumber(58);" title="Marauder Cat"><img alt="Marauder Cat" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/8/80/Uni057_f00.png" width="64"></a></span><span class="Banner" id="mw-default-size" typeof="mw:File">
+<a onclick="SetNumber(60);" title="Baby Cat"><img alt="Baby Cat" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/4/49/Uni059_f00.png" width="64"></a></span><span class="Banner" id="mw-default-size" typeof="mw:File">
+<a onclick="SetNumber(143);" title="Nurse Cat"><img alt="Nurse Cat" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/c/c5/Uni143_f00.png" width="64"></a></span><span class="Banner" id="mw-default-size" typeof="mw:File">
+<a onclick="SetNumber(421);" title="Cat Clan Heroes"><img alt="Cat Clan Heroes" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/2/20/Uni427_f00.png" width="64"></a></span><span class="Banner" id="mw-default-size" typeof="mw:File">
+<a onclick="SetNumber(505);" title="Lasvoss"><img alt="Lasvoss" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/7/71/Uni519_f00.png" width="64"></a></span><span class="Banner" id="mw-default-size" typeof="mw:File">
+<a onclick="SetNumber(603);" title="Summoner Satoru"><img alt="Summoner Satoru" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/d/d5/Uni617_f00.png" width="64"></a></span><span class="Banner" id="mw-default-size" typeof="mw:File">
+<a onclick="SetNumber(653);" title="Cat Tengu"><img alt="Cat Tengu" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/0/08/Uni668_f00.png" width="64"></a></span>
 </div>
-
-<div id="sidebar">
-    <h3>Selected Items</h3>
-    <ul id="selectedList"></ul>
-    <h3>Data Summary</h3>
-    <div id="dataSummary"></div>
+<button class="collapsible">Lugas</button>
+<div class="Banner" id="Lugas">
+<a onclick="SetNumber(170);" title="Balaluga"><img alt="Balaluga" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/0/0e/Uni171_f00.png" width="64"></a>
+<a onclick="SetNumber(167);" title="Asiluga"><img alt="Asiluga" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/7/7d/Uni168_f00.png" width="64"></a>
+<a onclick="SetNumber(35);" title="Nekoluga"><img alt="Nekoluga" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/7/7f/Uni034_f00.png" width="64"></a>
+<a onclick="SetNumber(169);" title="Tecoluga"><img alt="Tecoluga" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/4/4d/Uni170_f00.png" width="64"></a>
+<a onclick="SetNumber(168);" title="Kubiluga"><img alt="Kubiluga" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/b/b9/Uni169_f00.png" width="64"></a>
+<a onclick="SetNumber(238);" title="Togeluga"><img alt="Togeluga" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/f/f5/Uni240_f00.png" width="64"></a>
+<a onclick="SetNumber(428);" title="Nobiluga"><img alt="Nobiluga" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/0/04/Uni436_f00.png" width="64"></a>
+<a onclick="SetNumber(532);" title="Papaluga"><img alt="Papaluga" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/6/63/Uni546_f00.png" width="64"></a>
+<a onclick="SetNumber(611);" title="Furiluga"><img alt="Furiluga" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/0/03/Uni625_f00.png" width="64"></a>
+<a onclick="SetNumber(696);" title="Kaoluga"><img alt="Kaoluga" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/5/56/Uni712_f00.png" width="64"></a>
 </div>
+<button class="collapsible">Wargods</button>
+<div class="Banner" id="Wargods">
+<a onclick="SetNumber(72);" title="Sanada Yukimura"><img alt="Sanada Yukimura" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/b/bf/Uni071_f00.png" width="64"></a>
+<a onclick="SetNumber(73);" title="Maeda Keiji"><img alt="Maeda Keiji" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/7/71/Uni072_f00.png" width="64"></a>
+<a onclick="SetNumber(74);" title="Oda Nobunaga"><img alt="Oda Nobunaga" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/7/7d/Uni073_f00.png" width="64"></a>
+<a onclick="SetNumber(126);" title="Takeda Shingen"><img alt="Takeda Shingen" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/5/5f/Uni125_f00.png" width="64"></a>
+<a onclick="SetNumber(125);" title="Date Masamune"><img alt="Date Masamune" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/6/6c/Uni124_f00.png" width="64"></a>
+<a onclick="SetNumber(157);" title="Uesugi Kenshin"><img alt="Uesugi Kenshin" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/c/cf/Uni158_f00.png" width="64"></a>
+<a onclick="SetNumber(334);" title="Imagawa Yoshimoto"><img alt="Imagawa Yoshimoto" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/9/93/Uni338_f00.png" width="64"></a>
+<a onclick="SetNumber(486);" title="Narita Kaihime"><img alt="Narita Kaihime" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/0/04/Uni496_f00.png" width="64"></a>
+<a onclick="SetNumber(604);" title="Shiro Amakusa"><img alt="Shiro Amakusa" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/9/96/Uni618_f00.png" width="64"></a>
+<a onclick="SetNumber(634);" title="Hattori Hanzo"><img alt="Hattori Hanzo" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/6/6b/Uni649_f00.png" width="64"></a>
+<a onclick="SetNumber(728);" title="Akechi Mitsuhide"><img alt="Akechi Mitsuhide" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/2/29/Uni754_f00.png" width="64"></a>
 </div>
-
+<button class="collapsible">Galaxy Gals</button>
+<div class="Banner" id="Galaxy Gals">
+<a onclick="SetNumber(76);" title="Windy"><img alt="Windy" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/c/c3/Uni075_f00.png" width="64"></a>
+<a onclick="SetNumber(77);" title="Thundia"><img alt="Thundia" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/6/68/Uni076_f00.png" width="64"></a>
+<a onclick="SetNumber(106);" title="Kuu"><img alt="Kuu" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/2/25/Uni105_f00.png" width="64"></a>
+<a onclick="SetNumber(107);" title="Kai"><img alt="Kai" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/2/28/Uni106_f00.png" width="64"></a>
+<a onclick="SetNumber(108);" title="Coppermine"><img alt="Coppermine" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/b/bd/Uni107_f00.png" width="64"></a>
+<a onclick="SetNumber(158);" title="Kalisa"><img alt="Kalisa" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/5/5b/Uni159_f00.png" width="64"></a>
+<a onclick="SetNumber(346);" title="Twinstars"><img alt="Twinstars" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/e/eb/Uni351_f00.png" width="64"></a>
+<a onclick="SetNumber(488);" title="Myrcia"><img alt="Myrcia" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/5/59/Uni502_f00.png" width="64"></a>
+<a onclick="SetNumber(605);" title="Lilin"><img alt="Lilin" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/b/b1/Uni619_f00.png" width="64"></a>
+<a onclick="SetNumber(632);" title="Huntress Terun"><img alt="Huntress Terun" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/e/e6/Uni647_f00.png" width="64"></a>
+<a onclick="SetNumber(715);" title="Pegasa"><img alt="Pegasa" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/9/95/Uni733_f00.png" width="64"></a>
+</div>
+<button class="collapsible">Dragon Emperors</button>
+<div class="Banner" id="D)agon Emperors">
+<a onclick="SetNumber(85);" title="Megidora"><img alt="Megidora" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/3/34/Uni084_f00.png" width="64"></a>
+<a onclick="SetNumber(84);" title="Sodom"><img alt="Sodom" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/b/b9/Uni083_f00.png" width="64"></a>
+<a onclick="SetNumber(88);" title="Raiden"><img alt="Raiden" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/4/4f/Uni087_f00.png" width="64"></a>
+<a onclick="SetNumber(86);" title="Vars"><img alt="Vars" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/b/be/Uni085_f00.png" width="64"></a>
+<a onclick="SetNumber(87);" title="Kamukura"><img alt="Kamukura" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/d/df/Uni086_f00.png" width="64"></a>
+<a onclick="SetNumber(176);" title="Dioramos"><img alt="Dioramos" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/8/8d/Uni177_f00.png" width="64"></a>
+<a onclick="SetNumber(390);" title="Ganglion"><img alt="Ganglion" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/0/08/Uni396_f00.png" width="64"></a>
+<a onclick="SetNumber(491);" title="Relentless Gladios"><img alt="Relentless Gladios" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/c/c6/Uni505_f00.png" width="64"></a>
+<a onclick="SetNumber(606);" title="Hevijak the Wicked"><img alt="Hevijak the Wicked" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/c/c3/Uni620_f00.png" width="64"></a>
+<a onclick="SetNumber(645);" title="Sea Serpent Daliasan"><img alt="Sea Serpent Daliasan" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/7/72/Uni660_f00.png" width="64"></a>
+<a onclick="SetNumber(733);" title="Gunduros"><img alt="Gunduros" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/a/ae/Uni760_f00.png" width="64"></a>
+</div>
+<button class="collapsible">Ultra Souls</button>
+<div class="Banner" id="Ultra Souls">
+<a onclick="SetNumber(137);" title="Momotaro"><img alt="Momotaro" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/a/ad/Uni136_f00.png" width="64"></a>
+<a onclick="SetNumber(135);" title="Urashima Taro"><img alt="Urashima Taro" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/2/22/Uni134_f00.png" width="64"></a>
+<a onclick="SetNumber(136);" title="The Grateful Crane"><img alt="The Grateful Crane" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/7/7b/Uni135_f00.png" width="64"></a>
+<a onclick="SetNumber(138);" title="Kasa Jizo"><img alt="Kasa Jizo" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/2/2c/Uni137_f00.png" width="64"></a>
+<a onclick="SetNumber(139);" title="Princess Kaguya"><img alt="Princess Kaguya" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/5/5b/Uni138_f00.png" width="64"></a>
+<a onclick="SetNumber(201);" title="Kachi-Kachi"><img alt="Kachi-Kachi" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/b/ba/Uni203_f00.png" width="64"></a>
+<a onclick="SetNumber(318);" title="Sarukani"><img alt="Sarukani" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/3/31/Uni322_f00.png" width="64"></a>
+<a onclick="SetNumber(511);" title="Kintaro"><img alt="Kintaro" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/c/ca/Uni525_f00.png" width="64"></a>
+<a onclick="SetNumber(619);" title="Shitakiri Sparrow"><img alt="Shitakiri Sparrow" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/5/54/Uni633_f00.png" width="64"></a>
+<a onclick="SetNumber(676);" title="Issun Boshi"><img alt="Issun Boshi" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/b/b7/Uni692_f00.png" width="64"></a>
+</div>
+<button class="collapsible">Dark Heroes</button>
+<div class="Banner" id="Dark Heroes">
+<a onclick="SetNumber(192);" title="Akira"><img alt="Akira" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/9/97/Uni194_f00.png" width="64"></a>
+<a onclick="SetNumber(194);" title="Catman"><img alt="Catman" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/f/fa/Uni196_f00.png" width="64"></a>
+<a onclick="SetNumber(193);" title="Mekako Saionji"><img alt="Mekako Saionji" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/6/69/Uni195_f00.png" width="64"></a>
+<a onclick="SetNumber(210);" title="The White Rabbit"><img alt="The White Rabbit" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/3/31/Uni212_f00.png" width="64"></a>
+<a onclick="SetNumber(224);" title="Warlock and Pierre"><img alt="Warlock and Pierre" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/f/f7/Uni226_f00.png" width="64"></a>
+<a onclick="SetNumber(259);" title="Hayabusa"><img alt="Hayabusa" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/4/4e/Uni261_f00.png" width="64"></a>
+<a onclick="SetNumber(425);" title="Detective Vigler"><img alt="Detective Vigler" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/1/12/Uni431_f00.png" width="64"></a>
+<a onclick="SetNumber(519);" title="Sharpshooter Saki"><img alt="Sharpshooter Saki" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/d/d2/Uni533_f00.png" width="64"></a>
+<a onclick="SetNumber(620);" title="White Knight Cyclops"><img alt="White Knight Cyclops" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/c/ca/Uni634_f00.png" width="64"></a>
+<a onclick="SetNumber(682);" title="Thunder Jack"><img alt="Thunder Jack" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/9/9e/Uni698_f00.png" width="64"></a>
+</div>
+<button class="collapsible">Majestic Zeus</button>
+<div class="Banner" id="Majestic Zeus">
+<a onclick="SetNumber(255);" title="Thunder God Zeus"><img alt="Thunder God Zeus" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/1/14/Uni257_f00.png" width="64"></a>
+<a onclick="SetNumber(256);" title="Anubis the Protector"><img alt="Anubis the Protector" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/2/24/Uni258_f00.png" width="64"></a>
+<a onclick="SetNumber(257);" title="Radiant Aphrodite"><img alt="Radiant Aphrodite" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/2/2a/Uni259_f00.png" width="64"></a>
+<a onclick="SetNumber(269);" title="Shining Amaterasu"><img alt="Shining Amaterasu" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/9/99/Uni271_f00.png" width="64"></a>
+<a onclick="SetNumber(270);" title="Splendid Ganesha"><img alt="Splendid Ganesha" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/e/e8/Uni272_f00.png" width="64"></a>
+<a onclick="SetNumber(313);" title="Wrathful Poseidon"><img alt="Wrathful Poseidon" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/1/1b/Uni316_f00.png" width="64"></a>
+<a onclick="SetNumber(431);" title="Empress Chronos"><img alt="Empress Chronos" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/8/81/Uni439_f00.png" width="64"></a>
+<a onclick="SetNumber(520);" title="Hades the Punisher"><img alt="Hades the Punisher" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/1/17/Uni534_f00.png" width="64"></a>
+<a onclick="SetNumber(627);" title="Lucifer the Fallen"><img alt="Lucifer the Fallen" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/1/13/Uni642_f00.png" width="64"></a>
+<a onclick="SetNumber(707);" title="Lightmother Aset"><img alt="Lightmother Aset" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/2/2a/Uni723_f00.png" width="64"></a>
+</div>
+<button class="collapsible">Iron Legion</button>
+<div class="Banner" id="Iron Legion">
+<a onclick="SetNumber(301);" title="Mighty Kat-A-Pult"><img alt="Mighty Kat-A-Pult" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/9/9d/Uni304_f00.png" width="64"></a>
+<a onclick="SetNumber(303);" title="Mighty Bomburr"><img alt="Mighty Bomburr" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/8/80/Uni306_f00.png" width="64"></a>
+<a onclick="SetNumber(302);" title="Mighty Drednot"><img alt="Mighty Drednot" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/3/3c/Uni305_f00.png" width="64"></a>
+<a onclick="SetNumber(349);" title="Mighty Rekon Korps"><img alt="Mighty Rekon Korps" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/a/a9/Uni355_f00.png" width="64"></a>
+<a onclick="SetNumber(417);" title="Mighty Thermae D-Lux"><img alt="Mighty Thermae D-Lux" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/7/79/Uni417_f00.png" width="64"></a>
+<a onclick="SetNumber(580);" title="Mighty Aethur Ltd."><img alt="Mighty Aethur Ltd." class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/a/a7/Uni594_f00.png" width="64"></a>
+<a onclick="SetNumber(618);" title="Mighty Deth-Troy-R"><img alt="Mighty Deth-Troy-R" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/3/32/Uni632_f00.png" width="64"></a>
+<a onclick="SetNumber(658);" title="Mighty Carrowsell"><img alt="Mighty Carrowsell" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/8/84/Uni674_f00.png" width="64"></a>
+<a onclick="SetNumber(715);" title="Mighty Sphinx Korps"><img alt="Mighty Sphinx Korps" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/c/c5/Uni715_f00.png" width="64"></a>
+</div>
+<button class="collapsible">Elemental Pixies</button>
+<div class="Banner" id="Elemental Pixies">
+<a onclick="SetNumber(353);" title="Bora"><img alt="Bora" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/1/1e/Uni359_f00.png" width="64"></a>
+<a onclick="SetNumber(354);" title="Mizli"><img alt="Mizli" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/d/d5/Uni360_f00.png" width="64"></a>
+<a onclick="SetNumber(355);" title="Aer"><img alt="Aer" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/c/ce/Uni361_f00.png" width="64"></a>
+<a onclick="SetNumber(395);" title="Voli"><img alt="Voli" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/7/7a/Uni401_f00.png" width="64"></a>
+<a onclick="SetNumber(555);" title="Gravi"><img alt="Gravi" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/b/b1/Uni569_f00.png" width="64"></a>
+<a onclick="SetNumber(617);" title="Yamii"><img alt="Yamii" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/e/e7/Uni631_f00.png" width="64"></a>
+<a onclick="SetNumber(640);" title="Bliza"><img alt="Bliza" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/b/be/Uni655_f00.png" width="64"></a>
+<a onclick="SetNumber(703);" title="Tekachi"><img alt="Tekachi" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/f/f7/Uni719_f00.png" width="64"></a>
+</div>
+<button class="collapsible">Merc Storia</button>
+<div class="Banner" id="Merc Storia">
+<a onclick="SetNumber(120);" title="Wyvern"><img alt="Wyvern" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/4/41/Uni119_f00.png" width="64"></a>
+<a onclick="SetNumber(186);" title="Mystica"><img alt="Mystica" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/b/b7/Uni188_f00.png" width="64"></a>
+<a onclick="SetNumber(185);" title="Juvens"><img alt="Juvens" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/d/dd/Uni187_f00.png" width="64"></a>
+<a onclick="SetNumber(184);" title="Cornelia"><img alt="Cornelia" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/3/38/Uni186_f00.png" width="64"></a>
+<a onclick="SetNumber(183);" title="Hearscht"><img alt="Hearscht" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/9/9f/Uni185_f00.png" width="64"></a>
+<a onclick="SetNumber(340);" title="Michelia"><img alt="Michelia" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/6/68/Uni345_f00.png" width="64"></a>
+<a onclick="SetNumber(341);" title="Todomeki"><img alt="Todomeki" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/2/24/Uni346_f00.png" width="64"></a>
+<a onclick="SetNumber(492);" title="Eyewaltz"><img alt="Eyewaltz" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/0/0c/Uni506_f00.png" width="64"></a>
+</div>
+<button class="collapsible">Survive! Mola Mola!</button>
+<div class="Banner" id="Survive! Mola Mola!">
+<a onclick="SetNumber(173);" title="Mola King"><img alt="Mola King" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/1/1c/Uni174_f00.png" width="64"></a>
+</div>
+<button class="collapsible">Shoumetsu Toshi</button>
+<div class="Banner" id="Shoumetsu Toshi">
+<a onclick="SetNumber(179);" title="Mystery Girl Yuki"><img alt="Mystery Girl Yuki" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/f/f2/Uni180_f00.png" width="64"></a>
+<a onclick="SetNumber(268);" title="Crazed Yuki"><img alt="Crazed Yuki" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/8/8b/Uni270_f00.png" width="64"></a>
+<a onclick="SetNumber(336);" title="Lost World Yuki"><img alt="Lost World Yuki" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/c/c3/Uni341_f00.png" width="64"></a>
+<a onclick="SetNumber(473);" title="Benevolent Souma"><img alt="Benevolent Souma" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/0/0b/Uni482_f00.png" width="64"></a>
+</div>
+<button class="collapsible">Metal Slug</button>
+<div class="Banner" id="Metal Slug">
+<a onclick="SetNumber(220);" title="HUGE HERMIT"><img alt="HUGE HERMIT" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/7/7c/Uni222_f00.png" width="64"></a>
+<a onclick="SetNumber(221);" title="JUPITER KING"><img alt="JUPITER KING" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/5/5e/Uni223_f00.png" width="64"></a>
+<a onclick="SetNumber(222);" title="DONALD MORDEN"><img alt="DONALD MORDEN" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/4/4d/Uni224_f00.png" width="64"></a>
+<a onclick="SetNumber(223);" title="HI-DO"><img alt="HI-DO" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/c/cc/Uni225_f00.png" width="64"></a>
+<a onclick="SetNumber(711);" title="SOL DAE ROKKER"><img alt="SOL DAE ROKKER" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/b/bd/Uni727_f00.png" width="64"></a>
+</div>
+<button class="collapsible">Madoka Magica</button>
+<div class="Banner" id="Madoka Magica">
+<a onclick="SetNumber(285);" title="Madoka Kaname"><img alt="Madoka Kaname" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/a/af/Uni288_f00.png" width="64"></a>
+<a onclick="SetNumber(286);" title="Homura Akemi"><img alt="Homura Akemi" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/f/fb/Uni289_f00.png" width="64"></a>
+<a onclick="SetNumber(287);" title="Sayaka Miki"><img alt="Sayaka Miki" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/1/16/Uni290_f00.png" width="64"></a>
+<a onclick="SetNumber(288);" title="Mami Tomoe"><img alt="Mami Tomoe" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/c/c0/Uni291_f00.png" width="64"></a>
+<a onclick="SetNumber(289);" title="Kyoko Sakura"><img alt="Kyoko Sakura" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/d/d3/Uni292_f00.png" width="64"></a>
+<a onclick="SetNumber(432);" title="Bebe"><img alt="Bebe" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/7/79/Uni440_f00.png" width="64"></a>
+</div>
+<button class="collapsible">Crash Fever</button>
+<div class="Banner" id="Clash Fever">
+<a onclick="SetNumber(322);" title="Mobius"><img alt="Mobius" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/a/a2/Uni326_f00.png" width="64"></a>
+</div>
+<button class="collapsible">Fate Stay Night</button>
+<div class="Banner" id="Fate Stay Night">
+<a onclick="SetNumber(356);" title="Saber"><img alt="Saber" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/e/e2/Uni362_f00.png" width="64"></a>
+<a onclick="SetNumber(357);" title="Rin Tohsaka"><img alt="Rin Tohsaka" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/4/40/Uni363_f00.png" width="64"></a>
+<a onclick="SetNumber(358);" title="Illyasviel"><img alt="Illyasviel" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/6/61/Uni364_f00.png" width="64"></a>
+<a onclick="SetNumber(359);" title="Archer"><img alt="Archer" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/1/15/Uni365_f00.png" width="64"></a>
+<a onclick="SetNumber(360);" title="Lancer"><img alt="Lancer" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/2/25/Uni366_f00.png" width="64"></a>
+<a onclick="SetNumber(361);" title="Rider"><img alt="Rider" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/5/5c/Uni367_f00.png" width="64"></a>
+<a onclick="SetNumber(362);" title="Gilgamesh"><img alt="Gilgamesh" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/d/db/Uni368_f00.png" width="64"></a>
+<a onclick="SetNumber(448);" title="Sakura Matou"><img alt="Sakura Matou" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/8/8d/Uni456_f00.png" width="64"></a>
+</div>
+<button class="collapsible">Power Pro Baseball</button>
+<div class="Banner" id="Power Pro Baseball">
+<a onclick="SetNumber(387);" title="Saki Nijima"><img alt="Saki Nijima" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/4/4d/Uni393_f00.png" width="64"></a>
+<a onclick="SetNumber(388);" title="Subaru Hoshi"><img alt="Subaru Hoshi" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/2/2c/Uni394_f00.png" width="64"></a>
+<a onclick="SetNumber(389);" title="Miyabi Oyama"><img alt="Miyabi Oyama" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/2/2a/Uni395_f00.png" width="64"></a>
+</div>
+<button class="collapsible">Neon Genesis Evangelion</button>
+<div class="Banner" id="Neon Genesis Evangelion">
+<a onclick="SetNumber(406);" title="Eva Unit-00"><img alt="Eva Unit-00" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/9/96/Uni412_f00.png" width="64"></a>
+<a onclick="SetNumber(407);" title="Eva Unit-01"><img alt="Eva Unit-01" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/8/86/Uni413_f00.png" width="64"></a>
+<a onclick="SetNumber(408);" title="Eva Unit-02"><img alt="Eva Unit-02" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/9/97/Uni414_f00.png" width="64"></a>
+<a onclick="SetNumber(409);" title="Shinji Cat"><img alt="Shinji Cat" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/b/b3/Uni415_f00.png" width="64"></a>
+<a onclick="SetNumber(410);" title="Moon Operators"><img alt="Moon Operators" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/d/d4/Uni416_f00.png" width="64"></a>
+<a onclick="SetNumber(478);" title="Eva Unit-08"><img alt="Eva Unit-08" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/6/62/Uni487_f00.png" width="64"></a>
+<a onclick="SetNumber(479);" title="AAA Wunder"><img alt="AAA Wunder" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/1/1d/Uni488_f00.png" width="64"></a>
+<a onclick="SetNumber(693);" title="One-Eyed Asuka"><img alt="One-Eyed Asuka" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/0/0d/Uni709_f00.png" width="64"></a>
+</div>
+<button class="collapsible">Neon Genesis Evangelion 2</button>
+<div class="Banner" id="Neon Genesis Evangelion 2">
+<a onclick="SetNumber(533);" title="Night Oracle Rei"><img alt="Night Oracle Rei" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/c/c2/Uni547_f00.png" width="64"></a>
+<a onclick="SetNumber(534);" title="The 4th Angel"><img alt="The 4th Angel" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/a/ae/Uni548_f00.png" width="64"></a>
+<a onclick="SetNumber(535);" title="The 6th Angel"><img alt="The 6th Angel" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/d/d8/Uni549_f00.png" width="64"></a>
+<a onclick="SetNumber(536);" title="The 10th Angel"><img alt="The 10th Angel" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/5/57/Uni550_f00.png" width="64"></a>
+<a onclick="SetNumber(537);" title="The 9th Angel"><img alt="The 9th Angel" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/8/89/Uni551_f00.png" width="64"></a>
+<a onclick="SetNumber(694);" title="Eva Unit-13"><img alt="Eva Unit-13" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/2/20/Uni710_f00.png" width="64"></a>
+</div>
+<button class="collapsible">Bikkuriman</button>
+<div class="Banner" id="Bakkuriman">
+<a onclick="SetNumber(458);" title="Super Zeus"><img alt="Super Zeus" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/4/44/Uni467_f00.png" width="64"></a>
+<a onclick="SetNumber(468);" title="Holy Phoenix"><img alt="Holy Phoenix" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/7/74/Uni468_f00.png" width="64"></a>
+<a onclick="SetNumber(460);" title="Super Devil"><img alt="Super Devil" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/4/4c/Uni469_f00.png" width="64"></a>
+<a onclick="SetNumber(461);" title="Satanmaria"><img alt="Satanmaria" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/a/a3/Uni470_f00.png" width="64"></a>
+<a onclick="SetNumber(462);" title="Heracrist"><img alt="Heracrist" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/6/60/Uni471_f00.png" width="64"></a>
+<a onclick="SetNumber(541);" title="Shaman Khan"><img alt="Shaman Khan" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/6/6c/Uni555_f00.png" width="64"></a>
+</div>
+<button class="collapsible">Street Fighter</button>
+<div class="Banner" id="Street Fighter">
+<a onclick="SetNumber(497);" title="Ryu"><img alt="Ryu" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/4/4e/Uni511_f00.png" width="64"></a>
+<a onclick="SetNumber(498);" title="Chun-Li"><img alt="Chun-Li" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/9/9f/Uni512_f00.png" width="64"></a>
+<a onclick="SetNumber(499);" title="Guile"><img alt="Guile" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/e/e3/Uni513_f00.png" width="64"></a>
+<a onclick="SetNumber(500);" title="Zangief"><img alt="Zangief" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/e/e2/Uni514_f00.png" width="64"></a>
+<a onclick="SetNumber(501);" title="Blanka"><img alt="Blanka" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/b/b3/Uni515_f00.png" width="64"></a>
+<a onclick="SetNumber(502);" title="Dhalsim"><img alt="Dhalsim" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/e/ea/Uni516_f00.png" width="64"></a>
+<a onclick="SetNumber(503);" title="Ken"><img alt="Ken" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/7/72/Uni517_f00.png" width="64"></a>
+<a onclick="SetNumber(557);" title="E. Honda"><img alt="E. Honda" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/4/43/Uni571_f00.png" width="64"></a>
+<a onclick="SetNumber(558);" title="Balrog"><img alt="Balrog" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/0/01/Uni572_f00.png" width="64"></a>
+<a onclick="SetNumber(559);" title="Vega"><img alt="Vega" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/3/38/Uni573_f00.png" width="64"></a>
+<a onclick="SetNumber(560);" title="Sagat"><img alt="Sagat" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/8/85/Uni574_f00.png" width="64"></a>
+<a onclick="SetNumber(561);" title="M. Bison"><img alt="M. Bison" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/4/49/Uni575_f00.png" width="64"></a>
+<a onclick="SetNumber(664);" title="Sakura"><img alt="Sakura" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/9/9f/Uni680_f00.png" width="64"></a>
+<a onclick="SetNumber(665);" title="Luke"><img alt="Luke" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/f/f5/Uni681_f00.png" width="64"></a>
+</div>
+<button class="collapsible">Hatsune Miku</button>
+<div class="Banner" id="Hatsune Miku">
+<a onclick="SetNumber(521);" title="Hatsune Miku"><img alt="Hatsune Miku" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/7/7a/Uni535_f00.png" width="64"></a>
+<a onclick="SetNumber(522);" title="Sakura Miku"><img alt="Sakura Miku" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/a/a0/Uni536_f00.png" width="64"></a>
+<a onclick="SetNumber(537);" title="Kagamine Rin &amp; Len"><img alt="Kagamine Rin &amp; Len" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/1/12/Uni537_f00.png" width="64"></a>
+<a onclick="SetNumber(546);" title="Megurine Luka"><img alt="Megurine Luka" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/d/db/Uni560_f00.png" width="64"></a>
+<a onclick="SetNumber(568);" title="Hatsune Miku: MM2020 Osaka"><img alt="Hatsune Miku: MM2020 Osaka" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/4/44/Uni582_f00.png" width="64"></a>
+<a onclick="SetNumber(569);" title="Hatsune Miku: MM2020 Tokyo"><img alt="Hatsune Miku: MM2020 Tokyo" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/5/5e/Uni583_f00.png" width="64"></a>
+<a onclick="SetNumber(576);" title="Snow Miku 2021"><img alt="Snow Miku 2021" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/3/3e/Uni590_f00.png" width="64"></a>
+<a onclick="SetNumber(722);" title="Hatsune Miku XVI"><img alt="Hatsune Miku XVI" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/c/c9/Uni722_f00.png" width="64"></a>
+</div>
+<button class="collapsible">Ranma</button>
+<div class="Banner" id="Ranma">
+<a onclick="SetNumber(582);" title="Ranma Saotome (M)"><img alt="Ranma Saotome (M)" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/1/11/Uni596_f00.png" width="64"></a>
+<a onclick="SetNumber(583);" title="Akane Tendo"><img alt="Akane Tendo" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/b/b9/Uni597_f00.png" width="64"></a>
+<a onclick="SetNumber(584);" title="Ryoga Hibiki (Pig)"><img alt="Ryoga Hibiki (Pig)" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/4/4c/Uni598_f00.png" width="64"></a>
+<a onclick="SetNumber(585);" title="Shampoo (Cat)"><img alt="Shampoo (Cat)" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/d/d2/Uni599_f00.png" width="64"></a>
+<a onclick="SetNumber(586);" title="Mousse (Duck)"><img alt="Mousse (Duck)" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/3/38/Uni600_f00.png" width="64"></a>
+<a onclick="SetNumber(656);" title="Ranma Saotome (Leotard)"><img alt="Ranma Saotome (Leotard)" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/e/e1/Uni671_f00.png" width="64"></a>
+</div>
+<button class="collapsible">Princess Punt</button>
+<div class="Banner" id="Princess Punt">
+<a onclick="SetNumber(67);" title="PPT48"><img alt="PPT48" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/c/c3/Uni066_f00.png" width="64"></a>
+<a onclick="SetNumber(160);" title="Crazed Princess Punt"><img alt="Crazed Princess Punt" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/5/5a/Uni161_f00.png" width="64"></a>
+<a onclick="SetNumber(333);" title="HMS Princess"><img alt="HMS Princess" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/0/02/Uni337_f00.png" width="64"></a>
+<a onclick="SetNumber(476);" title="Calette"><img alt="Calette" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/9/9c/Uni485_f00.png" width="64"></a>
+<a onclick="SetNumber(516);" title="Herme"><img alt="Herme" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/4/40/Uni530_f00.png" width="64"></a>
+</div>
+<button class="collapsible">Rurouni Kenshin</button>
+<div class="Banner" id="Rurouni Kenshin">
+<a onclick="SetNumber(720);" title="Kenshin Himura"><img alt="Kenshin Himura" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/5/55/Uni746_f00.png" width="64"></a>
+<a onclick="SetNumber(721);" title="Sanosuke Sagara"><img alt="Sanosuke Sagara" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/b/b4/Uni747_f00.png" width="64"></a>
+<a onclick="SetNumber(722);" title="Aoshi Shinomori"><img alt="Aoshi Shinomori" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/4/4e/Uni748_f00.png" width="64"></a>
+<a onclick="SetNumber(723);" title="Hajime Saito"><img alt="Hajime Saito" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/7/76/Uni749_f00.png" width="64"></a>
+</div>
+<button class="collapsible">Halloween Capsules</button>
+<div class="Banner" id="Halloween Capsules">
+<a onclick="SetNumber(227);" title="Hallowindy"><img alt="Hallowindy" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/5/5a/Uni229_f00.png" width="64"></a>
+<a onclick="SetNumber(228);" title="Spooky Thundia"><img alt="Spooky Thundia" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/6/68/Uni230_f00.png" width="64"></a>
+<a onclick="SetNumber(299);" title="Lilith Cat"><img alt="Lilith Cat" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/3/32/Uni302_f00.png" width="64"></a>
+<a onclick="SetNumber(556);" title="Skull Rider Vars"><img alt="Skull Rider Vars" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/5/5c/Uni570_f00.png" width="64"></a>
+<a onclick="SetNumber(667);" title="Count Yukimura"><img alt="Count Yukimura" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/4/4d/Uni683_f00.png" width="64"></a>
+</div>
+<button class="collapsible">Xmas Gals</button>
+<div class="Banner" id="Xmas Gals">
+<a onclick="SetNumber(239);" title="Frosty Kai"><img alt="Frosty Kai" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/0/0d/Uni241_f00.png" width="64"></a>
+<a onclick="SetNumber(240);" title="Santa Kuu"><img alt="Santa Kuu" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/d/db/Uni242_f00.png" width="64"></a>
+<a onclick="SetNumber(241);" title="Holy Coppermine"><img alt="Holy Coppermine" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/a/a5/Uni243_f00.png" width="64"></a>
+<a onclick="SetNumber(307);" title="Yuletide Nurse"><img alt="Yuletide Nurse" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/9/98/Uni310_f00.png" width="64"></a>
+<a onclick="SetNumber(512);" title="Snow Angel Twinstars"><img alt="Snow Angel Twinstars" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/2/2d/Uni526_f00.png" width="64"></a>
+<a onclick="SetNumber(570);" title="Keiji Claus"><img alt="Keiji Claus" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/9/95/Uni584_f00.png" width="64"></a>
+<a onclick="SetNumber(671);" title="Reindeer Terun"><img alt="Reindeer Terun" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/d/d9/Uni687_f00.png" width="64"></a>
+</div>
+<button class="collapsible">Gals of Summer</button>
+<div class="Banner" id="Gals of Summer">
+<a onclick="SetNumber(348);" title="Seashore Kai"><img alt="Seashore Kai" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/b/bb/Uni354_f00.png" width="64"></a>
+<a onclick="SetNumber(430);" title="Waverider Kuu"><img alt="Waverider Kuu" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/4/49/Uni438_f00.png" width="64"></a>
+<a onclick="SetNumber(484);" title="Seabreeze Coppermine"><img alt="Seabreeze Coppermine" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/6/60/Uni494_f00.png" width="64"></a>
+<a onclick="SetNumber(550);" title="Summerluga"><img alt="Summerluga" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/1/12/Uni564_f00.png" width="64"></a>
+<a onclick="SetNumber(698);" title="Coastal Explorer Kanna"><img alt="Coastal Explorer Kanna" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/6/6e/Uni714_f00.png" width="64"></a>
+</div>
+<button class="collapsible">Gals of Summer Blue Ocean</button>
+<div class="Banner" id="Gals of Summer Blue Ocean">
+<a onclick="SetNumber(272);" title="Tropical Kalisa"><img alt="Tropical Kalisa" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/f/f3/Uni274_f00.png" width="64"></a>
+<a onclick="SetNumber(273);" title="Midsummer Rabbit"><img alt="Midsummer Rabbit" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/e/ee/Uni275_f00.png" width="64"></a>
+<a onclick="SetNumber(549);" title="Squirtgun Saki"><img alt="Squirtgun Saki" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/f/fd/Uni563_f00.png" width="64"></a>
+<a onclick="SetNumber(600);" title="Kaguya of the Coast"><img alt="Kaguya of the Coast" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/3/3e/Uni614_f00.png" width="64"></a>
+<a onclick="SetNumber(651);" title="Night Beach Lilin"><img alt="Night Beach Lilin" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/c/c2/Uni666_f00.png" width="64"></a>
+<a onclick="SetNumber(732);" title="Music Fest Thundia"><img alt="Music Fest Thundia" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/2/20/Uni759_f00.png" width="64"></a>
+</div>
+<button class="collapsible">Gals of Summer Easter Carnival</button>
+<div class="Banner" id="Easter Carnival">
+<a onclick="SetNumber(326);" title="Springtime Kenshin"><img alt="Springtime Kenshin" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/9/9d/Uni330_f00.png" width="64"></a>
+<a onclick="SetNumber(327);" title="Bunny and Canard"><img alt="Bunny and Canard" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/7/7a/Uni331_f00.png" width="64"></a>
+<a onclick="SetNumber(581);" title="Blooming Kamukura"><img alt="Blooming Kamukura" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/2/28/Uni595_f00.png" width="64"></a>
+<a onclick="SetNumber(683);" title="Rabbit Satoru"><img alt="Rabbit Satoru" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/7/71/Uni699_f00.png" width="64"></a>
+<a onclick="SetNumber(718);" title="Floral Kalisa"><img alt="Floral Kalisa" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/4/40/Uni737_f00.png" width="64"></a>
+</div>
+<button class="collapsible">Girls and Monsters</button>
+<div class="Banner" id="Girlsmon">
+<a onclick="SetNumber(330);" title="Trickster Himeyuri"><img alt="Trickster Himeyuri" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/3/3e/Uni334_f00.png" width="64"></a>
+<a onclick="SetNumber(331);" title="Sea Maiden Ruri"><img alt="Sea Maiden Ruri" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/5/55/Uni335_f00.png" width="64"></a>
+<a onclick="SetNumber(332);" title="Queen Reika"><img alt="Queen Reika" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/7/74/Uni336_f00.png" width="64"></a>
+<a onclick="SetNumber(351);" title="Wolfchild Deale"><img alt="Wolfchild Deale" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/b/b7/Uni357_f00.png" width="64"></a>
+<a onclick="SetNumber(352);" title="Graveflower Verbena"><img alt="Graveflower Verbena" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/d/dc/Uni358_f00.png" width="64"></a>
+<a onclick="SetNumber(593);" title="Adventurer Kanna"><img alt="Adventurer Kanna" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/2/2e/Uni607_f00.png" width="64"></a>
+<a onclick="SetNumber(666);" title="Spectral Goth Vega"><img alt="Spectral Goth Vega" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/3/39/Uni682_f00.png" width="64"></a>
+<a onclick="SetNumber(709);" title="Ninja Girl Tomoe"><img alt="Ninja Girl Tomoe" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/5/55/Uni725_f00.png" width="64"></a>
+</div>
+<button class="collapsible">Valentine Gals</button>
+<div class="Banner" id="Valentine Gals">
+<a onclick="SetNumber(139);" title="Princess Kaguya"><img alt="Princess Kaguya" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/5/5b/Uni138_f00.png" width="64"></a>
+<a onclick="SetNumber(143);" title="Nurse Cat"><img alt="Nurse Cat" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/c/c5/Uni143_f00.png" width="64"></a>
+<a onclick="SetNumber(486);" title="Narita Kaihime"><img alt="Narita Kaihime" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/0/04/Uni496_f00.png" width="64"></a>
+<a onclick="SetNumber(519);" title="Sharpshooter Saki"><img alt="Sharpshooter Saki" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/d/d2/Uni533_f00.png" width="64"></a>
+<a onclick="SetNumber(573);" title="Sweet Aphrodite"><img alt="Sweet Aphrodite" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/3/3a/Uni587_f00.png" width="64"></a>
+<a onclick="SetNumber(574);" title="First-Love Myrcia"><img alt="First-Love Myrcia" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/1/15/Uni588_f00.png" width="64"></a>
+<a onclick="SetNumber(629);" title="Sweet Love Mekako"><img alt="Sweet Love Mekako" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/5/58/Uni644_f00.png" width="64"></a>
+</div>
+<button class="collapsible">June Bride</button>
+<div class="Banner" id="June Bride">
+<a onclick="SetNumber(318);" title="Sarukani"><img alt="Sarukani" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/3/31/Uni322_f00.png" width="64"></a>
+<a onclick="SetNumber(352);" title="Graveflower Verbena"><img alt="Graveflower Verbena" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/d/dc/Uni358_f00.png" width="64"></a>
+<a onclick="SetNumber(354);" title="Mizli"><img alt="Mizli" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/d/d5/Uni360_f00.png" width="64"></a>
+<a onclick="SetNumber(390);" title="Ganglion"><img alt="Ganglion" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/0/08/Uni396_f00.png" width="64"></a>
+<a onclick="SetNumber(620);" title="White Knight Cyclops"><img alt="White Knight Cyclops" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/c/ca/Uni634_f00.png" width="64"></a>
+<a onclick="SetNumber(646);" title="Chronos the Bride"><img alt="Chronos the Bride" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/1/1f/Uni661_f00.png" width="64"></a>
+<a onclick="SetNumber(658);" title="Mighty Carrowsell"><img alt="Mighty Carrowsell" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/8/84/Uni674_f00.png" width="64"></a>
+<a onclick="SetNumber(695);" title="Betrothed Balaluga"><img alt="Betrothed Balaluga" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/2/2b/Uni711_f00.png" width="64"></a>
+<a onclick="SetNumber(729);" title="Cake Machine"><img alt="Cake Machine" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/e/e0/Uni756_f00.png" width="64"></a>
+</div>
+<button class="collapsible">Uberfest</button>
+<div class="Banner" id="Uberfest">
+<a onclick="SetNumber(267);" title="Baby Gao"><img alt="Baby Gao" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/3/3c/Uni269_f00.png" width="64"></a>
+<a onclick="SetNumber(315);" title="Miko Mitama"><img alt="Miko Mitama" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/9/97/Uni318_f00.png" width="64"></a>
+<a onclick="SetNumber(374);" title="D'artanyan"><img alt="D'artanyan" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/1/1f/Uni380_f00.png" width="64"></a>
+<a onclick="SetNumber(515);" title="Kasli the Scourge"><img alt="Kasli the Scourge" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/d/de/Uni529_f00.png" width="64"></a>
+<a onclick="SetNumber(571);" title="Baby Garu"><img alt="Baby Garu" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/5/5d/Uni585_f00.png" width="64"></a>
+<a onclick="SetNumber(626);" title="Iz the Dancer"><img alt="Iz the Dancer" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/9/97/Uni641_f00.png" width="64"></a>
+<a onclick="SetNumber(674);" title="Child of Destiny Phono"><img alt="Child of Destiny Phono" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/b/b4/Uni690_f00.png" width="64"></a>
+</div>
+<button class="collapsible">Epicfest</button>
+<div class="Banner" id="Epicfest">
+<a onclick="SetNumber(329);" title="Shadow Gao"><img alt="Shadow Gao" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/a/aa/Uni333_f00.png" width="64"></a>
+<a onclick="SetNumber(372);" title="Dark Mitama"><img alt="Dark Mitama" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/a/a1/Uni378_f00.png" width="64"></a>
+<a onclick="SetNumber(433);" title="D'arktanyan"><img alt="D'arktanyan" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/6/6c/Uni441_f00.png" width="64"></a>
+<a onclick="SetNumber(529);" title="Kasli the Bane"><img alt="Kasli the Bane" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/d/d6/Uni543_f00.png" width="64"></a>
+<a onclick="SetNumber(595);" title="Dark Aegis Garu"><img alt="Dark Aegis Garu" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/4/43/Uni609_f00.png" width="64"></a>
+<a onclick="SetNumber(642);" title="Iz the Dancer of Grief"><img alt="Iz the Dancer of Grief" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/b/b1/Uni657_f00.png" width="64"></a>
+<a onclick="SetNumber(689);" title="King of Doom Phono"><img alt="King of Doom Phono" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/b/bc/Uni705_f00.png" width="64"></a>
+</div>
+<button class="collapsible">Superfest</button>
+<div class="Banner" id="Superfest">
+<a onclick="SetNumber(267);" title="Baby Gao"><img alt="Baby Gao" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/3/3c/Uni269_f00.png" width="64"></a>
+<a onclick="SetNumber(329);" title="Shadow Gao"><img alt="Shadow Gao" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/a/aa/Uni333_f00.png" width="64"></a>
+<a onclick="SetNumber(315);" title="Miko Mitama"><img alt="Miko Mitama" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/9/97/Uni318_f00.png" width="64"></a>
+<a onclick="SetNumber(372);" title="Dark Mitama"><img alt="Dark Mitama" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/a/a1/Uni378_f00.png" width="64"></a>
+<a onclick="SetNumber(374);" title="D'artanyan"><img alt="D'artanyan" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/1/1f/Uni380_f00.png" width="64"></a>
+<a onclick="SetNumber(433);" title="D'arktanyan"><img alt="D'arktanyan" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/6/6c/Uni441_f00.png" width="64"></a>
+<a onclick="SetNumber(515);" title="Kasli the Scourge"><img alt="Kasli the Scourge" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/d/de/Uni529_f00.png" width="64"></a>
+<a onclick="SetNumber(529);" title="Kasli the Bane"><img alt="Kasli the Bane" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/d/d6/Uni543_f00.png" width="64"></a>
+<a onclick="SetNumber(571);" title="Baby Garu"><img alt="Baby Garu" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/5/5d/Uni585_f00.png" width="64"></a>
+<a onclick="SetNumber(595);" title="Dark Aegis Garu"><img alt="Dark Aegis Garu" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/4/43/Uni609_f00.png" width="64"></a>
+<a onclick="SetNumber(626);" title="Iz the Dancer"><img alt="Iz the Dancer" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/9/97/Uni641_f00.png" width="64"></a>
+<a onclick="SetNumber(642);" title="Iz the Dancer of Grief"><img alt="Iz the Dancer of Grief" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/b/b1/Uni657_f00.png" width="64"></a>
+<a onclick="SetNumber(674);" title="Child of Destiny Phono"><img alt="Child of Destiny Phono" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/b/b4/Uni690_f00.png" width="64"></a>
+<a onclick="SetNumber(689);" title="King of Doom Phono"><img alt="King of Doom Phono" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/b/bc/Uni705_f00.png" width="64"></a>
+</div>
+<button class="collapsible">Busters</button>
+<div class="Banner" id="Busters"> <h3>Busters</h3>
+<a onclick="SetNumber(281);" title="Pai-Pai"><img alt="Pai-Pai" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/d/d1/Uni283_f00.png" width="64"></a>
+<a onclick="SetNumber(283);" title="Strike Unit R.E.I."><img alt="Strike Unit R.E.I." class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/8/8f/Uni286_f00.png" width="64"></a>
+<a onclick="SetNumber(391);" title="Sakura Sonic"><img alt="Sakura Sonic" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/6/69/Uni397_f00.png" width="64"></a>
+<a onclick="SetNumber(545);" title="Hell Warden Emma"><img alt="Hell Warden Emma" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/a/ad/Uni559_f00.png" width="64"></a>
+<a onclick="SetNumber(670);" title="Goddess of Light Sirius"><img alt="Goddess of Light Sirius" class="Banner" decoding="async" height="64" id="mw-file-element" loading="lazy" src="//static.wikitide.net/battlecatswiki/2/2c/Uni686_f00.png" width="64"></a>
+</div>
+        </div>
+</div>
+        </div>
+    </div>
+    </div>
+    
+    
+    <div class="Calculator">
+        <div class="UnitData">
+            <div class="Filter">                    
+                <label for="formSelect">Form:</label>
+                <select id="formSelect">
+                    <option value="normal">Normal Form</option>
+                    <option value="evolved">Evolved Form</option>
+                    <option value="true">True Form</option>
+                    <option value="number">ID</option>
+                </select>
+                <div>
+                    <label for="nameSelect">Name:</label>
+                    <select id="nameSelect"></select>
+                </div>
+                <div id="imageSelector">
+                    <ul id="tabList"></ul>
+                    <div id="imageDisplay"></div>
+                </div>
+            </div>
+            <div id="dataDisplay" class="dataDisplay"></div>  
+        </div>
+    </div>
+    <div class="Filler">
+        <div class="sidebar">
+            <h3>Selected Items</h3>
+            <ul id="selectedList"></ul>
+            <h3>Data Summary</h3>
+            <div id="dataSummary"></div>
+        </div>
+    </div>
     <script src="script.js"></script>
+    <script> function SetNumber(number) 
+    { nameSelect.value = number + 1; 
+        const event = new Event('change'); 
+        nameSelect.dispatchEvent(event); }
+    </script>
 </body>
 </html>
