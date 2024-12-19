@@ -35,7 +35,7 @@ def write_html_file(html_file, content):
 
 # Path to your CSV and HTML files
 csv_file = 'BCDATA/UPDATEDUNITDATA.csv'
-html_file = 'file1_modified.html'
+html_file = 'normal_special_rare_superrare_legend.html'
 output_html_file = 'path_to_your_output_html_file.html'
 
 # Read the HTML content from the file
