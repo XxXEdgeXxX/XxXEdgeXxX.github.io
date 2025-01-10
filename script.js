@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    var Version = "1.0.8";
+    var Version = "1.0.7";
 
     const formSelect = document.getElementById('formSelect');
     const nameSelect = document.getElementById('nameSelect');
@@ -314,16 +314,29 @@ document.addEventListener('DOMContentLoaded', () => {
         imageDisplay.innerHTML = `<img src="${link}" alt="Unit Image">`;
     }
 
-    function Search()
-    {
+    function Search() {
         let input = SearchBar.value;
+        console.log(SearchBar.value);
+        if (input == "" || input == null
+        ) {
+            SearchResults.innerHTML = '';
+            return;
+        }
         input = input.toLowerCase();
         const results = Unitdata.filter(row => 
             row.slice(0, 4).some(cell => cell.toLowerCase().includes(input))
         );
 
-        const resultList = document.createElement('ul');
+        const uniqueResults = [];
         results.forEach(result => {
+            const existing = uniqueResults.find(uniqueResult => uniqueResult[0] === result[0]);
+            if (!existing) {
+                uniqueResults.push(result);
+            }
+        });
+
+        const resultList = document.createElement('ul');
+        uniqueResults.forEach(result => {
             const li = document.createElement('li');
             li.textContent = result.slice(0, 4).join(', ');
             resultList.appendChild(li);
@@ -331,5 +344,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
         SearchResults.innerHTML = '';
         SearchResults.appendChild(resultList);
+    }
+    function SetNumber(number) {
+        nameSelect.value = number + 1;
+        const event = new Event('change');
+        nameSelect.dispatchEvent(event);
     }
 });
